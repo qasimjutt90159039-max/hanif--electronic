@@ -1,3 +1,13 @@
+import {
+  getLocalProducts,
+  getLocalProductBySlug,
+  getLocalProductById,
+  getLocalCategories,
+  getLocalBrands,
+  getLocalSettings,
+  validateLocalCoupon
+} from './localData';
+
 const BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 export function getAuthToken(): string | null {
@@ -28,6 +38,11 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
     headers
   });
 
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.includes('application/json')) {
+    throw new Error('Not a JSON API response');
+  }
+
   const data = await response.json();
   if (!response.ok) {
     throw new Error(data.message || `Request failed with status ${response.status}`);
@@ -38,22 +53,42 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
 
 export const api = {
   // Products
-  getProducts(params: Record<string, any> = {}) {
+  async getProducts(params: Record<string, any> = {}) {
     const query = new URLSearchParams();
     Object.entries(params).forEach(([k, v]) => {
       if (v !== undefined && v !== null && v !== '') {
         query.append(k, String(v));
       }
     });
-    return request<any>(`/products?${query.toString()}`);
+    try {
+      const res = await request<any>(`/products?${query.toString()}`);
+      if (res && res.success && Array.isArray(res.data) && res.data.length > 0) {
+        return res;
+      }
+      return getLocalProducts(params);
+    } catch (e) {
+      return getLocalProducts(params);
+    }
   },
 
-  getProductBySlug(slug: string) {
-    return request<any>(`/products/slug/${slug}`);
+  async getProductBySlug(slug: string) {
+    try {
+      const res = await request<any>(`/products/slug/${slug}`);
+      if (res && res.success && res.data) return res;
+      return getLocalProductBySlug(slug);
+    } catch (e) {
+      return getLocalProductBySlug(slug);
+    }
   },
 
-  getProductById(id: string) {
-    return request<any>(`/products/${id}`);
+  async getProductById(id: string) {
+    try {
+      const res = await request<any>(`/products/${id}`);
+      if (res && res.success && res.data) return res;
+      return getLocalProductById(id);
+    } catch (e) {
+      return getLocalProductById(id);
+    }
   },
 
   createProduct(data: any) {
@@ -77,8 +112,14 @@ export const api = {
   },
 
   // Categories & Brands
-  getCategories() {
-    return request<any>('/categories');
+  async getCategories() {
+    try {
+      const res = await request<any>('/categories');
+      if (res && res.success && Array.isArray(res.data) && res.data.length > 0) return res;
+      return getLocalCategories();
+    } catch (e) {
+      return getLocalCategories();
+    }
   },
 
   createCategory(data: any) {
@@ -101,8 +142,14 @@ export const api = {
     });
   },
 
-  getBrands() {
-    return request<any>('/brands');
+  async getBrands() {
+    try {
+      const res = await request<any>('/brands');
+      if (res && res.success && Array.isArray(res.data) && res.data.length > 0) return res;
+      return getLocalBrands();
+    } catch (e) {
+      return getLocalBrands();
+    }
   },
 
   createBrand(data: any) {
@@ -158,11 +205,17 @@ export const api = {
   },
 
   // Coupons
-  validateCoupon(code: string, subtotal: number) {
-    return request<any>('/coupons/validate', {
-      method: 'POST',
-      body: JSON.stringify({ code, subtotal })
-    });
+  async validateCoupon(code: string, subtotal: number) {
+    try {
+      const res = await request<any>('/coupons/validate', {
+        method: 'POST',
+        body: JSON.stringify({ code, subtotal })
+      });
+      if (res && res.success) return res;
+      return validateLocalCoupon(code, subtotal);
+    } catch (e) {
+      return validateLocalCoupon(code, subtotal);
+    }
   },
 
   getCoupons() {
@@ -242,8 +295,14 @@ export const api = {
   },
 
   // Settings
-  getSettings() {
-    return request<any>('/settings');
+  async getSettings() {
+    try {
+      const res = await request<any>('/settings');
+      if (res && res.success && res.data) return res;
+      return getLocalSettings();
+    } catch (e) {
+      return getLocalSettings();
+    }
   },
 
   updateSettings(data: any) {

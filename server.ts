@@ -21,7 +21,7 @@ import adminRoutes from './server/routes/admin';
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 3001;
   const isProduction = process.env.NODE_ENV === 'production';
 
   // Middlewares
@@ -83,9 +83,22 @@ async function startServer() {
     });
   });
 
-  app.listen(Number(PORT), '0.0.0.0', () => {
-    console.log(`🚀 Hanif Centre Store running on http://localhost:${PORT}`);
-  });
+  const startListening = (port: number, maxRetries = 10) => {
+    const server = app.listen(port, '0.0.0.0', () => {
+      console.log(`🚀 Hanif Centre Store running on http://localhost:${port}`);
+    });
+
+    server.on('error', (err: any) => {
+      if (err.code === 'EADDRINUSE' && maxRetries > 0) {
+        console.warn(`⚠️ Port ${port} is in use, trying http://localhost:${port + 1}...`);
+        startListening(port + 1, maxRetries - 1);
+      } else {
+        console.error('Fatal server startup error:', err);
+      }
+    });
+  };
+
+  startListening(Number(PORT));
 }
 
 startServer().catch((err) => {

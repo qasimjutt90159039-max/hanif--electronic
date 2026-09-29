@@ -38,20 +38,27 @@ export const Home: React.FC = () => {
     async function loadData() {
       try {
         const [catRes, featRes, acRes, tvRes, refRes, kitRes] = await Promise.all([
-          api.getCategories(),
-          api.getProducts({ isFeatured: true, limit: 8 }),
-          api.getProducts({ category: 'dc-inverter-ac', limit: 4 }),
-          api.getProducts({ category: 'led-qled-tvs', limit: 4 }),
-          api.getProducts({ category: 'refrigerators', limit: 4 }),
-          api.getProducts({ category: 'kitchen-appliances', limit: 4 })
+          api.getCategories().catch(() => ({ success: false, data: [] })),
+          api.getProducts({ isFeatured: true, limit: 8 }).catch(() => ({ success: false, data: [] })),
+          api.getProducts({ category: 'dc-inverter-ac', limit: 4 }).catch(() => ({ success: false, data: [] })),
+          api.getProducts({ category: 'led-qled-tvs', limit: 4 }).catch(() => ({ success: false, data: [] })),
+          api.getProducts({ category: 'refrigerators', limit: 4 }).catch(() => ({ success: false, data: [] })),
+          api.getProducts({ category: 'kitchen-appliances', limit: 4 }).catch(() => ({ success: false, data: [] }))
         ]);
 
-        if (catRes.success) setCategories(catRes.data);
-        if (featRes.success) setFeaturedProducts(featRes.data);
-        if (acRes.success) setAcDeals(acRes.data);
-        if (tvRes.success) setTvProducts(tvRes.data);
-        if (refRes.success) setRefrigeratorProducts(refRes.data);
-        if (kitRes.success) setKitchenProducts(kitRes.data);
+        if (catRes.success && catRes.data?.length > 0) setCategories(catRes.data);
+        if (featRes.success && featRes.data?.length > 0) {
+          setFeaturedProducts(featRes.data);
+        } else {
+          const fallbackProds = await api.getProducts({ limit: 8 });
+          if (fallbackProds.success && fallbackProds.data?.length > 0) {
+            setFeaturedProducts(fallbackProds.data);
+          }
+        }
+        if (acRes.success && acRes.data?.length > 0) setAcDeals(acRes.data);
+        if (tvRes.success && tvRes.data?.length > 0) setTvProducts(tvRes.data);
+        if (refRes.success && refRes.data?.length > 0) setRefrigeratorProducts(refRes.data);
+        if (kitRes.success && kitRes.data?.length > 0) setKitchenProducts(kitRes.data);
       } catch (err) {
         console.error('Failed to load homepage data', err);
       } finally {

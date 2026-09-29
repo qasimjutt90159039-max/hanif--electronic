@@ -13,6 +13,8 @@ interface ProductCardProps {
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'grid' }) => {
+  if (!product) return null;
+
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
   const { addToCompare, isInCompare } = useCompare();
@@ -24,11 +26,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
   const id = product.id || product._id || '';
   const inWishlist = isInWishlist(id);
   const inCompare = isInCompare(id);
-  const isOutOfStock = product.stock <= 0 || product.stockStatus === 'out_of_stock';
-  const isLowStock = product.stock > 0 && product.stock <= 4;
+  const isOutOfStock = (product.stock ?? 0) <= 0 || product.stockStatus === 'out_of_stock';
+  const isLowStock = (product.stock ?? 0) > 0 && (product.stock ?? 0) <= 4;
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Hanif Centre, I am interested in:\n\nProduct: ${product.name}\nSKU: ${product.sku}\nCurrent Listed Price: Rs. ${product.price.toLocaleString()}\n\nPlease confirm availability and final price.`
+    `Hello Hanif Centre, I am interested in:\n\nProduct: ${product.name}\nSKU: ${product.sku}\nCurrent Listed Price: Rs. ${(product.price ?? 0).toLocaleString()}\n\nPlease confirm availability and final price.`
   );
 
   if (viewMode === 'list') {
@@ -98,12 +100,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
             <span className="text-xs text-gray-400 block font-medium">Estimated Price</span>
             <div className="flex items-baseline gap-2">
               <span className="text-xl sm:text-2xl font-black text-[#071A2B] font-['Outfit']">
-                Rs. {product.price.toLocaleString()}
+                Rs. {(product.price ?? 0).toLocaleString()}
               </span>
             </div>
             {product.oldPrice && product.oldPrice > product.price && (
               <span className="text-xs text-gray-400 line-through block">
-                Rs. {product.oldPrice.toLocaleString()}
+                Rs. {(product.oldPrice ?? 0).toLocaleString()}
               </span>
             )}
           </div>
@@ -258,12 +260,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
                   Reference Price
                 </span>
                 <span className="text-lg sm:text-xl font-black text-[#071A2B] font-['Outfit']">
-                  Rs. {product.price.toLocaleString()}
+                  Rs. {(product.price ?? 0).toLocaleString()}
                 </span>
               </div>
               {product.oldPrice && product.oldPrice > product.price ? (
                 <span className="text-xs text-gray-400 line-through">
-                  Rs. {product.oldPrice.toLocaleString()}
+                  Rs. {(product.oldPrice ?? 0).toLocaleString()}
                 </span>
               ) : null}
             </div>
@@ -283,7 +285,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
               </button>
 
               <a
-                href={`https://wa.me/${settings.whatsapp}?text=${whatsappMessage}`}
+                href={`https://wa.me/${settings?.whatsapp || '923057245533'}?text=${whatsappMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 transition-colors"
@@ -360,11 +362,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
 
                 <div className="mb-4">
                   <span className="text-2xl font-black text-[#071A2B] font-['Outfit']">
-                    Rs. {product.price.toLocaleString()}
+                    Rs. {(product.price ?? 0).toLocaleString()}
                   </span>
                   {product.oldPrice && product.oldPrice > product.price && (
                     <span className="text-sm text-gray-400 line-through ml-2">
-                      Rs. {product.oldPrice.toLocaleString()}
+                      Rs. {(product.oldPrice ?? 0).toLocaleString()}
                     </span>
                   )}
                 </div>
