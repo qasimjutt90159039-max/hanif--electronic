@@ -1,0 +1,6 @@
+{
+  "name": "Hanif Centre Electronics",
+  "description": "Complete production-ready ecommerce platform for Hanif Centre Electronics & Home Appliances in Lahore, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
