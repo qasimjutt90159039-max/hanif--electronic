@@ -100,7 +100,7 @@ export const OrderSuccess: React.FC = () => {
                     src={item.thumbnail}
                     alt=""
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
+                      (e.target as HTMLImageElement).src = '/images/products/test.svg';
                     }}
                     className="w-12 h-12 object-contain rounded-lg border bg-white p-1 shrink-0"
                   />

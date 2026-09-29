@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_nasgas-instant-geyser-super-flow-10l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="gySh_nasgas-instant-geyser-super-flow-10l" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_nasgas-instant-geyser-super-flow-10l)"/>
+
+  <g filter="url(#gySh_nasgas-instant-geyser-super-flow-10l)">
+    
+      <!-- Instant Gas Water Heater -->
+      <rect x="180" y="120" width="240" height="360" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="3"/>
+      <!-- Copper Flame Viewing Window -->
+      <circle cx="300" cy="240" r="35" fill="#0F172A" stroke="#EA580C" stroke-width="3"/>
+      <path d="M 300 220 Q 315 240 300 255 Q 285 240 300 220 Z" fill="#F97316"/>
+      <!-- Digital Temp Display -->
+      <rect x="255" y="300" width="90" height="38" rx="8" fill="#020617"/>
+      <text x="300" y="326" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#38BDF8" text-anchor="middle">
+        42°C
+      </text>
+      <!-- Dual Knobs (Water & Gas) -->
+      <circle cx="250" cy="385" r="18" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+      <circle cx="350" cy="385" r="18" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+    
+
+    <text x="300" y="165" font-family="'Outfit', sans-serif" font-size="16" font-weight="900" fill="#C2410C" text-anchor="middle" letter-spacing="2">
+      NASGAS
+    </text>
+  </g>
+
+  <g transform="translate(210, 520)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#EA580C"/>
+    <text x="90" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      INSTANT HOT WATER
+    </text>
+  </g>
+</svg>

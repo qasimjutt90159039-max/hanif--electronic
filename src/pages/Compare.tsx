@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Scale, Trash2, ShoppingCart, Check, X, ArrowRight } from 'lucide-react';
 import { useCompare } from '../context/CompareContext';
 import { useCart } from '../context/CartContext';
+import { getProductImageUrl, handleProductImageError } from '../utils/productImages';
 
 export const Compare: React.FC = () => {
   const { compareItems, removeFromCompare, clearCompare } = useCompare();
@@ -58,11 +59,9 @@ export const Compare: React.FC = () => {
                     </button>
                     <div className="w-32 h-32 mx-auto bg-gray-50 rounded-xl p-2 flex items-center justify-center mb-2">
                       <img
-                        src={p.thumbnail || (p.images && p.images[0])}
+                        src={getProductImageUrl(p)}
                         alt={p.name}
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                        }}
+                        onError={(e) => handleProductImageError(e, p)}
                         className="max-h-full max-w-full object-contain"
                       />
                     </div>

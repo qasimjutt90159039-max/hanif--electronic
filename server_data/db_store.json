@@ -5,24 +5,24 @@
       "id": "usr_admin_1",
       "name": "Hanif Centre Admin",
       "email": "admin@hanifcentre.com",
-      "password": "$2b$10$U6w0FIQspL63TaSqrUDTbuUG76a9a0PD13svi/lJpu8UzEHDCyrXS",
+      "password": "$2b$10$vZO9F88mTcwbFzUIR9ymDuyOc5hwe7F3/uIK3wjXsQkuy5Pv1F6km",
       "role": "admin",
       "phone": "0305-7245533",
       "address": "Yasin Mansion, McLeod Road, Lahore",
       "city": "Lahore",
-      "createdAt": "2026-09-29T22:06:44.859Z"
+      "createdAt": "2026-09-29T22:31:30.601Z"
     },
     {
       "_id": "usr_cust_1",
       "id": "usr_cust_1",
       "name": "Ahmed Malik",
       "email": "customer@hanifcentre.com",
-      "password": "$2b$10$1H2/YEqT3UrB514yish74e/JRVlm3OJwIVYL4Qbu3oi7jdbEvVile",
+      "password": "$2b$10$kL6/R3oFGtuvkLK.78rg7.py2IkW9KtkFP5wbnIj4JnGmuUcd7Nxa",
       "role": "customer",
       "phone": "0300-9409477",
       "address": "House 42, Sector Y, DHA Phase 3, Lahore",
       "city": "Lahore",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.603Z"
     }
   ],
   "products": [
@@ -43,10 +43,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/hyundai-inverter-ac-smart-hac-13t3-turbo-breeze-1-0-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/hyundai-inverter-ac-smart-hac-13t3-turbo-breeze-1-0-ton.svg",
       "specifications": {
         "Capacity": "1.0 Ton (12000 BTU)",
         "Compressor": "T3 Full DC Inverter",
@@ -80,8 +79,8 @@
       "model": "HAC-13T3",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T22:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_2",
@@ -100,9 +99,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/tcl-savein-31s-smart-inverter-ac-tac-18svn-ex-1-5-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/tcl-savein-31s-smart-inverter-ac-tac-18svn-ex-1-5-ton.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "WiFi": "Smart IoT App Control",
@@ -133,8 +132,8 @@
       "model": "TAC-18SVN-EX",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T21:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T21:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_3",
@@ -153,9 +152,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/midea-eco-t3-dc-inverter-smart-ac-1-0-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/midea-eco-t3-dc-inverter-smart-ac-1-0-ton.svg",
       "specifications": {
         "Capacity": "1.0 Ton (12000 BTU)",
         "Type": "Heat & Cool Inverter",
@@ -184,8 +183,8 @@
       "model": "MST-12CRDN1",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T20:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T20:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_4",
@@ -204,9 +203,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-jumbo-prime-plus-t3-inverter-ac-1-5-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-jumbo-prime-plus-t3-inverter-ac-1-5-ton.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "Airflow": "4D Surround Air",
@@ -236,8 +235,8 @@
       "model": "PINV-18K-JPP",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T19:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T19:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_5",
@@ -256,9 +255,9 @@
       "stock": 7,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/american-general-t3-heaven-e-smart-1-5-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/american-general-t3-heaven-e-smart-1-5-ton.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "Outdoor Type": "Heavy Duty T3 Condenser",
@@ -287,8 +286,8 @@
       "model": "AG-18-HVN",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T18:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T18:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_6",
@@ -307,9 +306,9 @@
       "stock": 9,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-cool-breeze-1-5-ton-cool-only-ac.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-cool-breeze-1-5-ton-cool-only-ac.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "Function": "Cooling Only",
@@ -339,8 +338,8 @@
       "model": "PCB-18K-CO",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T17:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T17:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_7",
@@ -359,9 +358,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/orient-evo-19r-t3-dc-inverter-ac-1-5-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/orient-evo-19r-t3-dc-inverter-ac-1-5-ton.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "Air Throw": "50 Feet",
@@ -391,8 +390,8 @@
       "model": "EVO-19R-1.5T",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T16:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T16:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_8",
@@ -411,9 +410,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/hisense-split-ac-12tv60-t3-1-ton.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/hisense-split-ac-12tv60-t3-1-ton.svg",
       "specifications": {
         "Capacity": "1.0 Ton (12000 BTU)",
         "Compressor": "T3 Rotary Inverter",
@@ -442,8 +441,8 @@
       "model": "12TV60",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T15:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T15:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_9",
@@ -462,9 +461,9 @@
       "stock": 20,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-inverter-ac-1-5-ton-hsu-18hns.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-inverter-ac-1-5-ton-hsu-18hns.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "UPS Enabled": "Runs on UPS / Solar",
@@ -494,8 +493,8 @@
       "model": "HSU-18HNS",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T14:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T14:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_10",
@@ -514,9 +513,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+        "/images/products/gree-inverter-ac-1-5-ton-pular-series.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/gree-inverter-ac-1-5-ton-pular-series.svg",
       "specifications": {
         "Capacity": "1.5 Ton (18000 BTU)",
         "Compressor": "Gree G-10 Inverter",
@@ -546,8 +545,8 @@
       "model": "GS-18PITH",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T13:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T13:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_11",
@@ -566,10 +565,9 @@
       "stock": 18,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&w=800&q=80"
+        "/images/products/tcl-32-inch-qled-smart-google-tv-32s51k.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/tcl-32-inch-qled-smart-google-tv-32s51k.svg",
       "specifications": {
         "Screen Size": "32 Inch",
         "Display": "QLED Quantum Dot",
@@ -603,8 +601,8 @@
       "model": "32S51K",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T12:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T12:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_12",
@@ -623,9 +621,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/xiaomi-32a2026-32-inch-google-tv.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/xiaomi-32a2026-32-inch-google-tv.svg",
       "specifications": {
         "Screen Size": "32 Inch HD",
         "OS": "Google TV Android 11",
@@ -656,8 +654,8 @@
       "model": "L32M8-AFME",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T11:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T11:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_13",
@@ -676,9 +674,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/tcl-43-inch-smart-google-tv-43p635-4k.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/tcl-43-inch-smart-google-tv-43p635-4k.svg",
       "specifications": {
         "Screen Size": "43 Inch",
         "Resolution": "3840 x 2160 4K UHD",
@@ -709,8 +707,8 @@
       "model": "43P635",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T10:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T10:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_14",
@@ -729,9 +727,9 @@
       "stock": 9,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/tcl-55-inch-qled-smart-tv-55c645-4k.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/tcl-55-inch-qled-smart-tv-55c645-4k.svg",
       "specifications": {
         "Screen Size": "55 Inch",
         "Panel": "Quantum Dot QLED",
@@ -763,8 +761,8 @@
       "model": "55C645",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T09:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T09:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_15",
@@ -783,9 +781,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-43-inch-smart-led-tv-h43k66ug.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-43-inch-smart-led-tv-h43k66ug.svg",
       "specifications": {
         "Screen Size": "43 Inch",
         "Resolution": "3840 x 2160",
@@ -815,8 +813,8 @@
       "model": "H43K66UG",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T08:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T08:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_16",
@@ -835,9 +833,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/hisense-43-inch-smart-led-tv-43a6k.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/hisense-43-inch-smart-led-tv-43a6k.svg",
       "specifications": {
         "Screen Size": "43 Inch",
         "Display": "4K Ultra HD Direct LED",
@@ -868,8 +866,8 @@
       "model": "43A6K",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T07:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T07:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_17",
@@ -888,9 +886,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/samsung-smart-led-tv-43cu7000-crystal-uhd-4k.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/samsung-smart-led-tv-43cu7000-crystal-uhd-4k.svg",
       "specifications": {
         "Screen Size": "43 Inch",
         "Processor": "Crystal Processor 4K",
@@ -921,8 +919,8 @@
       "model": "UA43CU7000",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T06:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T06:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_18",
@@ -941,9 +939,9 @@
       "stock": 13,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/skyworth-smart-led-tv-40e20-40-inch.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/skyworth-smart-led-tv-40e20-40-inch.svg",
       "specifications": {
         "Screen Size": "40 Inch",
         "Resolution": "1920 x 1080 Full HD",
@@ -973,8 +971,8 @@
       "model": "40E20",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T05:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T05:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_19",
@@ -993,9 +991,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/infinix-smart-tv-43x5-full-hd-android.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/infinix-smart-tv-43x5-full-hd-android.svg",
       "specifications": {
         "Screen Size": "43 Inch",
         "Resolution": "1920 x 1080 FHD",
@@ -1025,8 +1023,8 @@
       "model": "43X5",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T04:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T04:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_20",
@@ -1045,9 +1043,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"
+        "/images/products/ecostar-smart-led-tv-32-inch-cx-32u571.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/ecostar-smart-led-tv-32-inch-cx-32u571.svg",
       "specifications": {
         "Screen Size": "32 Inch",
         "Panel Type": "A+ Grade IPS",
@@ -1076,8 +1074,8 @@
       "model": "CX-32U571",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T03:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T03:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_21",
@@ -1096,10 +1094,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-hrf-246-ip-smart-inverter-refrigerator.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-hrf-246-ip-smart-inverter-refrigerator.svg",
       "specifications": {
         "Capacity": "9 Cu. Ft. (246 Liters)",
         "Compressor": "Smart Inverter",
@@ -1131,8 +1128,8 @@
       "model": "HRF-246-IP",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T02:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T02:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_22",
@@ -1151,9 +1148,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/kenwood-krf-22257-new-persona-plus-series-9-cft-refrigerator.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/kenwood-krf-22257-new-persona-plus-series-9-cft-refrigerator.svg",
       "specifications": {
         "Capacity": "9 Cu. Ft.",
         "Door Finish": "Tempered Mirror Glass",
@@ -1183,8 +1180,8 @@
       "model": "KRF-22257",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T01:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T01:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_23",
@@ -1203,9 +1200,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-hrf-346-iapa-digital-inverter-refrigerator-12-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-hrf-346-iapa-digital-inverter-refrigerator-12-cft.svg",
       "specifications": {
         "Capacity": "12 Cu. Ft. (346 Liters)",
         "Control": "External Digital Touch Panel",
@@ -1235,8 +1232,8 @@
       "model": "HRF-346-IAPA+",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-29T00:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T00:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_24",
@@ -1255,9 +1252,9 @@
       "stock": 9,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-inverter-refrigerator-91996-chrome-pro-14-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-inverter-refrigerator-91996-chrome-pro-14-cft.svg",
       "specifications": {
         "Capacity": "14 Cu. Ft.",
         "Technology": "Nature Lock Vegetable Box",
@@ -1287,8 +1284,8 @@
       "model": "91996-Chrome-Pro",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T23:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T23:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_25",
@@ -1307,9 +1304,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-inverter-refrigerator-pril-22250-11-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-inverter-refrigerator-pril-22250-11-cft.svg",
       "specifications": {
         "Capacity": "11 Cu. Ft.",
         "Insulation": "Thick Cell Polyurethane",
@@ -1338,8 +1335,8 @@
       "model": "PRIL-22250",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T22:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T22:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_26",
@@ -1358,9 +1355,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/kenwood-inverter-refrigerator-glass-mirror-12-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/kenwood-inverter-refrigerator-glass-mirror-12-cft.svg",
       "specifications": {
         "Capacity": "12 Cu. Ft.",
         "Finish": "Reflective Mirror Toughened Glass",
@@ -1389,8 +1386,8 @@
       "model": "KRF-24457",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T21:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T21:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_27",
@@ -1409,9 +1406,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/homage-refrigerator-hr-243-9-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/homage-refrigerator-hr-243-9-cft.svg",
       "specifications": {
         "Capacity": "9 Cu. Ft.",
         "Condenser": "External Steel Wire",
@@ -1440,8 +1437,8 @@
       "model": "HR-243",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T20:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T20:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_28",
@@ -1460,9 +1457,9 @@
       "stock": 6,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"
+        "/images/products/electrolux-refrigerator-frost-free-multi-flow-15-cft.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/electrolux-refrigerator-frost-free-multi-flow-15-cft.svg",
       "specifications": {
         "Capacity": "15 Cu. Ft.",
         "Defrosting": "100% Frost Free No Ice Buildup",
@@ -1492,8 +1489,8 @@
       "model": "ETB-4600",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T19:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T19:31:30.604Z",
+      "updatedAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "prd_29",
@@ -1512,9 +1509,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-1051-champagne-glass-door-water-dispenser.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-1051-champagne-glass-door-water-dispenser.svg",
       "specifications": {
         "Taps": "3 (Hot, Cold, Normal)",
         "Cabinet": "20 Liter Mini Refrigerator",
@@ -1544,8 +1541,8 @@
       "model": "WD-1051-CH",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T18:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T18:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_30",
@@ -1564,9 +1561,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-1051-beige-red-glass-door-water-dispenser.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-1051-beige-red-glass-door-water-dispenser.svg",
       "specifications": {
         "Taps": "3 Taps",
         "Capacity Cold": "4 Liters/Hour",
@@ -1595,8 +1592,8 @@
       "model": "WD-1051-BR",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T17:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T17:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_31",
@@ -1615,9 +1612,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-pwd-315-smart-water-dispenser.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-pwd-315-smart-water-dispenser.svg",
       "specifications": {
         "Taps": "3 Push Taps",
         "Tank": "SS304 Food Grade Stainless Steel",
@@ -1646,8 +1643,8 @@
       "model": "PWD-315",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T16:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T16:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_32",
@@ -1666,9 +1663,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/midea-yl-2037s-b-top-load-water-dispenser.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/midea-yl-2037s-b-top-load-water-dispenser.svg",
       "specifications": {
         "Type": "Top Load 3-Tap",
         "Compressor": "High Efficiency Danfoss Grade",
@@ -1697,8 +1694,8 @@
       "model": "YL-2037S-B",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T15:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T15:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_33",
@@ -1717,9 +1714,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/fischer-fe-25-s-s-slim-electric-water-cooler.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/fischer-fe-25-s-s-slim-electric-water-cooler.svg",
       "specifications": {
         "Tank Capacity": "25 Liters Cold Water",
         "Material": "Non-Magnetic Food Grade Stainless Steel",
@@ -1749,8 +1746,8 @@
       "model": "FE-25-SS",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T14:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T14:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_34",
@@ -1769,9 +1766,9 @@
       "stock": 13,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/super-asia-water-dispenser-heavy-duty-3-tap.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/super-asia-water-dispenser-heavy-duty-3-tap.svg",
       "specifications": {
         "Taps": "3 Taps",
         "Capacity": "Extra Chill High Flow",
@@ -1800,8 +1797,8 @@
       "model": "SA-WD300",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T13:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T13:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_35",
@@ -1820,9 +1817,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/gree-water-dispenser-luxury-series.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/gree-water-dispenser-luxury-series.svg",
       "specifications": {
         "Taps": "3 Taps",
         "Compressor": "Gree In-House High COP",
@@ -1851,8 +1848,8 @@
       "model": "GWD-300L",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T12:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T12:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_36",
@@ -1871,9 +1868,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+        "/images/products/canon-water-dispenser-classic-3-tap.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/canon-water-dispenser-classic-3-tap.svg",
       "specifications": {
         "Taps": "3 Taps",
         "Tanks": "Twin Stainless Steel",
@@ -1902,8 +1899,8 @@
       "model": "CWD-100",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T11:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T11:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_37",
@@ -1922,10 +1919,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-kitchen-hood-khd-275.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-kitchen-hood-khd-275.svg",
       "specifications": {
         "Suction Power": "1000 m3/hr",
         "Motor": "100% Pure Copper Heavy Motor",
@@ -1956,8 +1952,8 @@
       "model": "KHD-275",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T10:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T10:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_38",
@@ -1976,9 +1972,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-kitchen-hood-khd-265.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-kitchen-hood-khd-265.svg",
       "specifications": {
         "Suction Power": "850 m3/hr",
         "Body": "Brushed Stainless Steel",
@@ -2007,8 +2003,8 @@
       "model": "KHD-265",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T09:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T09:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_39",
@@ -2027,9 +2023,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-cooking-range-sg-324-5-burner.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-cooking-range-sg-324-5-burner.svg",
       "specifications": {
         "Burners": "5 Heavy Brass Burners",
         "Oven Capacity": "Large 90L Capacity",
@@ -2060,8 +2056,8 @@
       "model": "SG-324",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T08:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T08:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_40",
@@ -2080,9 +2076,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-hob-dg-gn2-3-burner-glass-hob.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-hob-dg-gn2-3-burner-glass-hob.svg",
       "specifications": {
         "Burners": "3 Brass Burners (1 Wok + 2 Medium)",
         "Glass": "8mm Thermal Shock Resistant",
@@ -2112,8 +2108,8 @@
       "model": "DG-GN2",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T07:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T07:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_41",
@@ -2132,9 +2128,9 @@
       "stock": 22,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/midas-italy-infrax-3-hot-plate-mi-101.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/midas-italy-infrax-3-hot-plate-mi-101.svg",
       "specifications": {
         "Power": "2200W",
         "Heating Tech": "Infrared Ceramic Coil",
@@ -2164,8 +2160,8 @@
       "model": "MI-101",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T06:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T06:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_42",
@@ -2184,9 +2180,9 @@
       "stock": 18,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/raf-3500w-infrared-cooker-r-8019.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/raf-3500w-infrared-cooker-r-8019.svg",
       "specifications": {
         "Wattage": "3500W High Output",
         "Plate": "A-Grade Microcrystalline Glass",
@@ -2215,8 +2211,8 @@
       "model": "R-8019",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T05:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T05:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_43",
@@ -2235,9 +2231,9 @@
       "stock": 20,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-hmw-20mhes-microwave-oven-20l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-hmw-20mhes-microwave-oven-20l.svg",
       "specifications": {
         "Capacity": "20 Liters",
         "Power": "700W Microwave",
@@ -2267,8 +2263,8 @@
       "model": "HMW-20MHES",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T04:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T04:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_44",
@@ -2287,9 +2283,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-air-fryer-5l-haf50db.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-air-fryer-5l-haf50db.svg",
       "specifications": {
         "Capacity": "5.0 Liters",
         "Power": "1500W",
@@ -2319,8 +2315,8 @@
       "model": "HAF50DB",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T03:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T03:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_45",
@@ -2339,9 +2335,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/canon-built-in-hob-3-burner-flame-failure.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/canon-built-in-hob-3-burner-flame-failure.svg",
       "specifications": {
         "Safety": "Flame Failure Device (FFD) on all burners",
         "Glass": "8mm Toughened Glass",
@@ -2371,8 +2367,8 @@
       "model": "C-HOB-300",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T02:06:44.860Z",
-      "updatedAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-28T02:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_46",
@@ -2391,9 +2387,9 @@
       "stock": 7,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-built-in-oven-gas-electric-bo-501.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-built-in-oven-gas-electric-bo-501.svg",
       "specifications": {
         "Capacity": "65 Liters",
         "Heating Modes": "Gas Bake + Electric Grill + Convection Fan",
@@ -2422,8 +2418,8 @@
       "model": "BO-501",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T01:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-28T01:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_47",
@@ -2442,9 +2438,9 @@
       "stock": 6,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-built-in-oven-dbo-450-g.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-built-in-oven-dbo-450-g.svg",
       "specifications": {
         "Capacity": "70 Liters",
         "Oven Functions": "8 Multi-Bake Settings",
@@ -2473,8 +2469,8 @@
       "model": "DBO-450-G",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-28T00:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-28T00:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_48",
@@ -2493,9 +2489,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+        "/images/products/canon-kitchen-hood-c-90-curved-glass.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/canon-kitchen-hood-c-90-curved-glass.svg",
       "specifications": {
         "Suction Rate": "900 m3/hr",
         "Controls": "3 Speed Push Buttons",
@@ -2524,8 +2520,8 @@
       "model": "C-90",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T23:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T23:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_49",
@@ -2544,9 +2540,9 @@
       "stock": 13,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-microwave-oven-md-300-baking-grill-30l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-microwave-oven-md-300-baking-grill-30l.svg",
       "specifications": {
         "Capacity": "30 Liters",
         "Heating": "Convection + Grill + Microwave",
@@ -2576,8 +2572,8 @@
       "model": "MD-300",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T22:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T22:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_50",
@@ -2596,9 +2592,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-microwave-oven-classic-23l-pmo-23.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-microwave-oven-classic-23l-pmo-23.svg",
       "specifications": {
         "Capacity": "23 Liters",
         "Power": "800W",
@@ -2627,8 +2623,8 @@
       "model": "PMO-23",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T21:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T21:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_51",
@@ -2647,9 +2643,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-ngd-201-dryer-heavy-duty-10kg.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-ngd-201-dryer-heavy-duty-10kg.svg",
       "specifications": {
         "Capacity": "10 KG",
         "Spin Speed": "1400 RPM",
@@ -2680,8 +2676,8 @@
       "model": "NGD-201",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T20:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T20:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_52",
@@ -2700,9 +2696,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/haier-automatic-washing-machine-hwm-90-1789-9kg.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/haier-automatic-washing-machine-hwm-90-1789-9kg.svg",
       "specifications": {
         "Capacity": "9.0 KG",
         "Type": "Top Load Fully Automatic",
@@ -2733,8 +2729,8 @@
       "model": "HWM-90-1789",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T19:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T19:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_53",
@@ -2753,9 +2749,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dawlance-automatic-washing-machine-dwt-260-c-lvs-10kg.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dawlance-automatic-washing-machine-dwt-260-c-lvs-10kg.svg",
       "specifications": {
         "Capacity": "10 KG",
         "Voltage": "LVS 150V Operation",
@@ -2785,8 +2781,8 @@
       "model": "DWT-260-C-LVS",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T18:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T18:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_54",
@@ -2805,9 +2801,9 @@
       "stock": 18,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/super-asia-washing-machine-sa-240-super-twin-tub.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/super-asia-washing-machine-sa-240-super-twin-tub.svg",
       "specifications": {
         "Capacity": "9 KG Wash + 7 KG Spin",
         "Body": "High Impact Virgin Plastic",
@@ -2836,8 +2832,8 @@
       "model": "SA-240",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T17:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T17:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_55",
@@ -2856,9 +2852,9 @@
       "stock": 9,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/samsung-washing-machine-wa80t5160-8kg-inverter.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/samsung-washing-machine-wa80t5160-8kg-inverter.svg",
       "specifications": {
         "Capacity": "8.0 KG",
         "Motor": "Digital Inverter 10 Year Warranty",
@@ -2888,8 +2884,8 @@
       "model": "WA80T5160",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T16:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T16:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_56",
@@ -2908,9 +2904,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/kenwood-washing-machine-kwm-950-semi-auto.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/kenwood-washing-machine-kwm-950-semi-auto.svg",
       "specifications": {
         "Capacity": "9.5 KG",
         "Top Cover": "Tempered Toughened Glass",
@@ -2939,8 +2935,8 @@
       "model": "KWM-950",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T15:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T15:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_57",
@@ -2959,9 +2955,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pel-washing-machine-pawm-1100-auto-11kg.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pel-washing-machine-pawm-1100-auto-11kg.svg",
       "specifications": {
         "Capacity": "11 KG Jumbo Drum",
         "Logic": "Fuzzy Logic Smart Sensors",
@@ -2991,8 +2987,8 @@
       "model": "PAWM-1100",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T14:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T14:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_58",
@@ -3011,9 +3007,9 @@
       "stock": 7,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/midea-washing-machine-front-load-8kg-inverter.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/midea-washing-machine-front-load-8kg-inverter.svg",
       "specifications": {
         "Capacity": "8 KG",
         "Type": "Front Load Inverter",
@@ -3044,8 +3040,8 @@
       "model": "MF100W80B",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T13:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T13:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_59",
@@ -3064,9 +3060,9 @@
       "stock": 20,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-instant-geyser-super-flow-10l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-instant-geyser-super-flow-10l.svg",
       "specifications": {
         "Capacity": "10 Liters/min",
         "Heat Exchanger": "100% Oxygen-Free Heavy Copper",
@@ -3097,8 +3093,8 @@
       "model": "SF-10L",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T12:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T12:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_60",
@@ -3117,9 +3113,9 @@
       "stock": 22,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/super-asia-instant-geyser-auto-ignition-8l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/super-asia-instant-geyser-auto-ignition-8l.svg",
       "specifications": {
         "Capacity": "8 Liters/min",
         "Safety": "Flame Failure & Overheat Shutoff",
@@ -3148,8 +3144,8 @@
       "model": "SA-8L-INST",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T11:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T11:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_61",
@@ -3168,9 +3164,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/canon-instant-geyser-ultra-fast-12l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/canon-instant-geyser-ultra-fast-12l.svg",
       "specifications": {
         "Capacity": "12 Liters/min High Flow",
         "Display": "Live Digital Water Temperature",
@@ -3200,8 +3196,8 @@
       "model": "C-12L-UF",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T10:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T10:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_62",
@@ -3220,9 +3216,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/fischer-geyser-storage-gas-electric-35-gallons.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/fischer-geyser-storage-gas-electric-35-gallons.svg",
       "specifications": {
         "Capacity": "35 Gallons (132 Liters)",
         "Boiler Sheet": "10/12 Gauge Galvanized Iron",
@@ -3252,8 +3248,8 @@
       "model": "FG-35GE",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T09:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T09:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_63",
@@ -3272,9 +3268,9 @@
       "stock": 19,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/midas-geyser-instant-6l-compact.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/midas-geyser-instant-6l-compact.svg",
       "specifications": {
         "Capacity": "6 Liters/min",
         "Size": "Space-Saving Ultra Compact",
@@ -3303,8 +3299,8 @@
       "model": "M-6L-COMP",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T08:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T08:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_64",
@@ -3323,9 +3319,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/golden-fuji-geyser-dual-storage-30-gallon.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/golden-fuji-geyser-dual-storage-30-gallon.svg",
       "specifications": {
         "Capacity": "30 Gallons",
         "Boiler": "Heavy Zinc Coated GI Sheet",
@@ -3354,8 +3350,8 @@
       "model": "GF-30G",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T07:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T07:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_65",
@@ -3374,9 +3370,9 @@
       "stock": 17,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+        "/images/products/glory-geyser-instant-10l-gold-series.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/glory-geyser-instant-10l-gold-series.svg",
       "specifications": {
         "Capacity": "10 Liters/min",
         "Ignition": "Instant Battery Pulse",
@@ -3405,8 +3401,8 @@
       "model": "GL-10-GOLD",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T06:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T06:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_66",
@@ -3425,9 +3421,9 @@
       "stock": 20,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/super-asia-air-cooler-ecm-5000-plus.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/super-asia-air-cooler-ecm-5000-plus.svg",
       "specifications": {
         "Water Tank": "70 Liters",
         "Cooling Media": "3-Sided High Density Honeycomb Pads",
@@ -3457,8 +3453,8 @@
       "model": "ECM-5000-Plus",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T05:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T05:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_67",
@@ -3477,9 +3473,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/boss-air-cooler-ecm-7000-jumbo.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/boss-air-cooler-ecm-7000-jumbo.svg",
       "specifications": {
         "Water Tank": "90 Liters Jumbo",
         "Air Throw": "45 Feet Long Air Throw",
@@ -3509,8 +3505,8 @@
       "model": "ECM-7000",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T04:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T04:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_68",
@@ -3529,9 +3525,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/canon-air-cooler-storm-60l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/canon-air-cooler-storm-60l.svg",
       "specifications": {
         "Capacity": "60 Liters",
         "Motor": "100% Copper Winding",
@@ -3560,8 +3556,8 @@
       "model": "C-STORM-60",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T03:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T03:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_69",
@@ -3580,9 +3576,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/nasgas-air-cooler-nac-9000-turbo.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/nasgas-air-cooler-nac-9000-turbo.svg",
       "specifications": {
         "Capacity": "75 Liters",
         "Material": "Virgin High Impact ABS",
@@ -3611,8 +3607,8 @@
       "model": "NAC-9000",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T02:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T02:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_70",
@@ -3631,9 +3627,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/pakfans-air-cooler-pf-700-heavy-metal.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/pakfans-air-cooler-pf-700-heavy-metal.svg",
       "specifications": {
         "Body": "Galvanized Heavy Steel Sheet",
         "Motor": "Pakfans 100% Pure Copper",
@@ -3662,8 +3658,8 @@
       "model": "PF-700",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T01:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T01:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_71",
@@ -3682,9 +3678,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+        "/images/products/royal-air-cooler-deluxe-model-55l.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/royal-air-cooler-deluxe-model-55l.svg",
       "specifications": {
         "Capacity": "55 Liters",
         "Noise": "Low Noise Night Mode",
@@ -3713,8 +3709,8 @@
       "model": "R-DLX-55",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-27T00:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-27T00:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_72",
@@ -3733,9 +3729,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+        "/images/products/xiaomi-air-purifier-smart-4-pro.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/xiaomi-air-purifier-smart-4-pro.svg",
       "specifications": {
         "CADR": "500 m3/h Clean Air",
         "Filter": "High-Efficiency 3-in-1 HEPA + Activated Carbon",
@@ -3767,8 +3763,8 @@
       "model": "AC-M15-SC",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T23:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T23:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_73",
@@ -3787,9 +3783,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+        "/images/products/philips-air-purifier-series-1000i.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/philips-air-purifier-series-1000i.svg",
       "specifications": {
         "Filter": "NanoProtect HEPA + Active Carbon",
         "CADR": "300 m3/h",
@@ -3818,8 +3814,8 @@
       "model": "AC1215/20",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T22:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T22:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_74",
@@ -3838,9 +3834,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+        "/images/products/gfc-air-purifier-pure-air-400.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/gfc-air-purifier-pure-air-400.svg",
       "specifications": {
         "CADR": "380 m3/h",
         "Filtration": "True HEPA H13 Grade",
@@ -3869,8 +3865,8 @@
       "model": "PA-400",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T21:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T21:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_75",
@@ -3889,9 +3885,9 @@
       "stock": 18,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+        "/images/products/super-asia-air-purifier-sap-200-smog-shield.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/super-asia-air-purifier-sap-200-smog-shield.svg",
       "specifications": {
         "Filtration": "Medical Grade H13 HEPA",
         "Power": "45W Low Consumption",
@@ -3920,8 +3916,8 @@
       "model": "SAP-200",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T20:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T20:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_76",
@@ -3940,9 +3936,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+        "/images/products/panasonic-vacuum-cleaner-mc-cg713-2000w-drum.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/panasonic-vacuum-cleaner-mc-cg713-2000w-drum.svg",
       "specifications": {
         "Power": "2000W Input",
         "Dust Capacity": "18 Liters Metal Drum",
@@ -3973,8 +3969,8 @@
       "model": "MC-CG713",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T19:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T19:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_77",
@@ -3993,9 +3989,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+        "/images/products/kenwood-vacuum-cleaner-vbp80-2200w.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/kenwood-vacuum-cleaner-vbp80-2200w.svg",
       "specifications": {
         "Power": "2200W Max Suction",
         "Capacity": "25 Liters Large Drum",
@@ -4025,8 +4021,8 @@
       "model": "VBP80",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T18:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T18:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_78",
@@ -4045,9 +4041,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+        "/images/products/westpoint-vacuum-cleaner-wf-932-wet-dry.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/westpoint-vacuum-cleaner-wf-932-wet-dry.svg",
       "specifications": {
         "Type": "Wet and Dry Cleaning",
         "Power": "1800W",
@@ -4076,8 +4072,8 @@
       "model": "WF-932",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T17:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T17:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_79",
@@ -4096,9 +4092,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+        "/images/products/hitachi-vacuum-cleaner-cv-950y-2100w.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/hitachi-vacuum-cleaner-cv-950y-2100w.svg",
       "specifications": {
         "Motor": "2100W High Motor Life",
         "Origin": "Made in Thailand (Hitachi Japan Tech)",
@@ -4128,8 +4124,8 @@
       "model": "CV-950Y",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T16:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T16:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_80",
@@ -4148,9 +4144,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+        "/images/products/dell-inspiron-15-3520-core-i5-12th-gen.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/dell-inspiron-15-3520-core-i5-12th-gen.svg",
       "specifications": {
         "Processor": "Intel Core i5-1235U (Up to 4.4 GHz)",
         "RAM": "8GB DDR4 (Upgradable)",
@@ -4181,8 +4177,8 @@
       "model": "Inspiron-3520",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T15:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T15:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_81",
@@ -4201,9 +4197,9 @@
       "stock": 9,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+        "/images/products/hp-15s-fq5000-core-i5-12th-gen.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/hp-15s-fq5000-core-i5-12th-gen.svg",
       "specifications": {
         "Processor": "Intel Core i5-1235U",
         "Memory": "8GB DDR4-3200",
@@ -4234,8 +4230,8 @@
       "model": "15s-fq5000",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T14:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T14:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_82",
@@ -4254,9 +4250,9 @@
       "stock": 7,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+        "/images/products/lenovo-ideapad-3-core-i7-12th-gen-16gb.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/lenovo-ideapad-3-core-i7-12th-gen-16gb.svg",
       "specifications": {
         "CPU": "Intel Core i7-1255U (Up to 4.7 GHz)",
         "RAM": "16GB Dual Channel DDR4",
@@ -4287,8 +4283,8 @@
       "model": "IdeaPad-3-15IAU7",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T13:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T13:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_83",
@@ -4307,9 +4303,9 @@
       "stock": 15,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/samsung-galaxy-a55-5g-8gb-256gb.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/samsung-galaxy-a55-5g-8gb-256gb.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Display": "6.6 Inch Super AMOLED 120Hz HDR10+",
@@ -4341,8 +4337,8 @@
       "model": "SM-A556B",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T12:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T12:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_84",
@@ -4361,9 +4357,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/oppo-reno-11f-5g-8gb-256gb.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/oppo-reno-11f-5g-8gb-256gb.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Charging": "67W SUPERVOOC Flash Charge",
@@ -4393,8 +4389,8 @@
       "model": "CPH2603",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T11:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T11:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_85",
@@ -4413,9 +4409,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/vivo-v30e-5g-8gb-256gb-studio-quality-aura-light.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/vivo-v30e-5g-8gb-256gb-studio-quality-aura-light.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Sensor": "Sony IMX882 50MP OIS",
@@ -4445,8 +4441,8 @@
       "model": "V2339",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T10:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T10:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_86",
@@ -4465,9 +4461,9 @@
       "stock": 14,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/realme-12-plus-5g-8gb-256gb-pioneer-watch-design.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/realme-12-plus-5g-8gb-256gb-pioneer-watch-design.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Camera": "Sony LYT-600 OIS Master Camera",
@@ -4497,8 +4493,8 @@
       "model": "RMX3867",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T09:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T09:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_87",
@@ -4517,9 +4513,9 @@
       "stock": 18,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/infinix-note-40-pro-8gb-256gb-all-round-fastcharge.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/infinix-note-40-pro-8gb-256gb-all-round-fastcharge.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Wireless Charging": "20W Wireless MagCharge Compatible",
@@ -4549,8 +4545,8 @@
       "model": "X6850",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T08:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T08:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_88",
@@ -4569,9 +4565,9 @@
       "stock": 11,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/tecno-camon-30-pro-12gb-512gb-imaging-master.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/tecno-camon-30-pro-12gb-512gb-imaging-master.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Processor": "Dimensity 8200 Ultimate 4nm",
@@ -4601,8 +4597,8 @@
       "model": "CL8",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T07:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T07:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_89",
@@ -4621,9 +4617,9 @@
       "stock": 17,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+        "/images/products/xiaomi-redmi-note-13-pro-8gb-256gb-200mp-camera.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/xiaomi-redmi-note-13-pro-8gb-256gb-200mp-camera.svg",
       "specifications": {
         "PTA Status": "Official PTA Approved",
         "Camera": "200MP Ultra-Clear with OIS + EIS",
@@ -4653,8 +4649,8 @@
       "model": "23117RA68G",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T06:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T06:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_90",
@@ -4673,9 +4669,9 @@
       "stock": 12,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/samsung-galaxy-watch-6-classic-47mm-bluetooth.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/samsung-galaxy-watch-6-classic-47mm-bluetooth.svg",
       "specifications": {
         "Display": "1.5 Inch Super AMOLED Sapphire Glass",
         "Bezel": "Physical Rotating Stainless Steel",
@@ -4705,8 +4701,8 @@
       "model": "SM-R960",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T05:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T05:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_91",
@@ -4725,9 +4721,9 @@
       "stock": 16,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/xiaomi-smart-watch-s3-amoled-bluetooth-calling.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/xiaomi-smart-watch-s3-amoled-bluetooth-calling.svg",
       "specifications": {
         "Display": "1.43 Inch 60Hz AMOLED",
         "Battery Life": "Up to 15 Days",
@@ -4757,8 +4753,8 @@
       "model": "M2323W1",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T04:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T04:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_92",
@@ -4777,9 +4773,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"
+        "/images/products/apple-watch-se-2nd-gen-44mm-gps.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/apple-watch-se-2nd-gen-44mm-gps.svg",
       "specifications": {
         "Size": "44mm Aluminum Case",
         "Chip": "S8 SiP Dual Core",
@@ -4809,8 +4805,8 @@
       "model": "A2723",
       "installationAvailable": false,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T03:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T03:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_93",
@@ -4829,9 +4825,9 @@
       "stock": 6,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"
+        "/images/products/motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline.svg",
       "specifications": {
         "Motor": "3.0 HP Peak Quiet Duty Motor",
         "Max Speed": "16 km/h",
@@ -4862,8 +4858,8 @@
       "model": "T-3000-PRO",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T02:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T02:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_94",
@@ -4882,9 +4878,9 @@
       "stock": 8,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"
+        "/images/products/elliptical-cross-trainer-machine-magnetic-resistance.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/elliptical-cross-trainer-machine-magnetic-resistance.svg",
       "specifications": {
         "Flywheel": "7 KG Heavy Inertia Flywheel",
         "Resistance": "8-Level Precision Magnetic",
@@ -4913,8 +4909,8 @@
       "model": "EL-500",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T01:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T01:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "prd_95",
@@ -4933,9 +4929,9 @@
       "stock": 10,
       "stockStatus": "in_stock",
       "images": [
-        "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"
+        "/images/products/exercise-spin-bike-magnetic-heavy-flywheel.svg"
       ],
-      "thumbnail": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+      "thumbnail": "/images/products/exercise-spin-bike-magnetic-heavy-flywheel.svg",
       "specifications": {
         "Flywheel": "13 KG Precision Balanced Steel",
         "Drive": "Silent Poly-V Belt Drive",
@@ -4964,8 +4960,8 @@
       "model": "SPIN-800",
       "installationAvailable": true,
       "deliveryAvailable": true,
-      "createdAt": "2026-09-26T00:06:44.861Z",
-      "updatedAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-26T00:31:30.605Z",
+      "updatedAt": "2026-09-29T22:31:30.605Z"
     }
   ],
   "categories": [
@@ -4979,7 +4975,7 @@
       "icon": "Wind",
       "sortOrder": 1,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_2",
@@ -4991,7 +4987,7 @@
       "icon": "Tv",
       "sortOrder": 2,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_3",
@@ -5003,7 +4999,7 @@
       "icon": "Refrigerator",
       "sortOrder": 3,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_4",
@@ -5015,7 +5011,7 @@
       "icon": "WashingMachine",
       "sortOrder": 4,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_5",
@@ -5027,7 +5023,7 @@
       "icon": "Flame",
       "sortOrder": 5,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_6",
@@ -5039,7 +5035,7 @@
       "icon": "Utensils",
       "sortOrder": 6,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_7",
@@ -5051,7 +5047,7 @@
       "icon": "Droplets",
       "sortOrder": 7,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_8",
@@ -5063,7 +5059,7 @@
       "icon": "Fan",
       "sortOrder": 8,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_9",
@@ -5075,7 +5071,7 @@
       "icon": "ShieldAlert",
       "sortOrder": 9,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_10",
@@ -5087,7 +5083,7 @@
       "icon": "Microwave",
       "sortOrder": 10,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_11",
@@ -5099,7 +5095,7 @@
       "icon": "Smartphone",
       "sortOrder": 11,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_12",
@@ -5111,7 +5107,7 @@
       "icon": "Laptop",
       "sortOrder": 12,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_13",
@@ -5123,7 +5119,7 @@
       "icon": "Watch",
       "sortOrder": 13,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_14",
@@ -5135,7 +5131,7 @@
       "icon": "Activity",
       "sortOrder": 14,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_15",
@@ -5147,7 +5143,7 @@
       "icon": "Bike",
       "sortOrder": 15,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_16",
@@ -5159,7 +5155,7 @@
       "icon": "BatteryCharging",
       "sortOrder": 16,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_17",
@@ -5171,7 +5167,7 @@
       "icon": "Sparkles",
       "sortOrder": 17,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "cat_18",
@@ -5183,7 +5179,7 @@
       "icon": "Gamepad2",
       "sortOrder": 18,
       "status": "active",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     }
   ],
   "brands": [
@@ -5194,7 +5190,7 @@
       "slug": "haier",
       "logo": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=200&q=80",
       "description": "Global leader in smart home appliances.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_2",
@@ -5203,7 +5199,7 @@
       "slug": "tcl",
       "logo": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=200&q=80",
       "description": "World class QLED Displays and T3 Inverter ACs.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_3",
@@ -5212,7 +5208,7 @@
       "slug": "midea",
       "logo": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=200&q=80",
       "description": "Smart climate and domestic cooling solutions.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_4",
@@ -5221,7 +5217,7 @@
       "slug": "hyundai",
       "logo": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=200&q=80",
       "description": "South Korean engineering excellence in home electronics.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_5",
@@ -5230,7 +5226,7 @@
       "slug": "pel",
       "logo": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=200&q=80",
       "description": "Pak Elektron Limited - Pakistan's most trusted appliances.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_6",
@@ -5239,7 +5235,7 @@
       "slug": "dawlance",
       "logo": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80",
       "description": "Reliable appliances built for Pakistani households.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_7",
@@ -5248,7 +5244,7 @@
       "slug": "kenwood",
       "logo": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=200&q=80",
       "description": "Premium British-designed electronics & refrigerators.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_8",
@@ -5257,7 +5253,7 @@
       "slug": "nasgas",
       "logo": "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=200&q=80",
       "description": "Pioneers in high-end geysers, hoods, and cooking ranges.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_9",
@@ -5266,7 +5262,7 @@
       "slug": "xiaomi",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Innovative Smart TVs, Mobiles and Air Purifiers.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_10",
@@ -5275,7 +5271,7 @@
       "slug": "samsung",
       "logo": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=200&q=80",
       "description": "Global pioneer in mobile tech and Crystal UHD TVs.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_11",
@@ -5284,7 +5280,7 @@
       "slug": "gree",
       "logo": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=200&q=80",
       "description": "The world's specialized air conditioning manufacturer.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_12",
@@ -5293,7 +5289,7 @@
       "slug": "orient",
       "logo": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=200&q=80",
       "description": "Innovative smart IoT enabled inverter appliances.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_13",
@@ -5302,7 +5298,7 @@
       "slug": "hisense",
       "logo": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=200&q=80",
       "description": "Leading consumer electronics and Laser TV innovation.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_14",
@@ -5311,7 +5307,7 @@
       "slug": "american-general",
       "logo": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=200&q=80",
       "description": "Heavy-duty commercial and residential air conditioners.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_15",
@@ -5320,7 +5316,7 @@
       "slug": "canon",
       "logo": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=200&q=80",
       "description": "Durable home appliances and gas geysers.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_16",
@@ -5329,7 +5325,7 @@
       "slug": "super-asia",
       "logo": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=200&q=80",
       "description": "Symbol of quality in washing machines and coolers.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_17",
@@ -5338,7 +5334,7 @@
       "slug": "fischer",
       "logo": "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=200&q=80",
       "description": "Heavy duty stainless steel water coolers and geysers.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_18",
@@ -5347,7 +5343,7 @@
       "slug": "philips",
       "logo": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=200&q=80",
       "description": "Health and lifestyle consumer electronics.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_19",
@@ -5356,7 +5352,7 @@
       "slug": "panasonic",
       "logo": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=200&q=80",
       "description": "Japanese durability in home vacuum systems.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_20",
@@ -5365,7 +5361,7 @@
       "slug": "westpoint",
       "logo": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=200&q=80",
       "description": "French quality small domestic appliances.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_21",
@@ -5374,7 +5370,7 @@
       "slug": "hitachi",
       "logo": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=200&q=80",
       "description": "Industrial grade vacuum cleaners and home machinery.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_22",
@@ -5383,7 +5379,7 @@
       "slug": "infinix",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Trendy smartphones and smart TVs for youth.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_23",
@@ -5392,7 +5388,7 @@
       "slug": "oppo",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Camera phone innovation and SuperVOOC fast charging.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_24",
@@ -5401,7 +5397,7 @@
       "slug": "vivo",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Stunning designs and mobile portrait photography.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_25",
@@ -5410,7 +5406,7 @@
       "slug": "realme",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Performance leapfrog mobiles and IoT gadgets.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_26",
@@ -5419,7 +5415,7 @@
       "slug": "tecno",
       "logo": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=200&q=80",
       "description": "Cutting-edge mobile tech at accessible prices.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_27",
@@ -5428,7 +5424,7 @@
       "slug": "dell",
       "logo": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=200&q=80",
       "description": "Enterprise grade laptops and workstations.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_28",
@@ -5437,7 +5433,7 @@
       "slug": "hp",
       "logo": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=200&q=80",
       "description": "Sleek business laptops and performance computing.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     },
     {
       "_id": "brd_29",
@@ -5446,7 +5442,7 @@
       "slug": "lenovo",
       "logo": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=200&q=80",
       "description": "ThinkPad durability and IdeaPad smart productivity.",
-      "createdAt": "2026-09-29T22:06:44.860Z"
+      "createdAt": "2026-09-29T22:31:30.604Z"
     }
   ],
   "orders": [
@@ -5486,15 +5482,15 @@
         {
           "status": "Pending",
           "note": "Order placed by customer",
-          "updatedAt": "2026-09-28T22:06:44.861Z"
+          "updatedAt": "2026-09-28T22:31:30.605Z"
         },
         {
           "status": "Confirmed",
           "note": "Customer called and price confirmed",
-          "updatedAt": "2026-09-29T10:06:44.861Z"
+          "updatedAt": "2026-09-29T10:31:30.605Z"
         }
       ],
-      "createdAt": "2026-09-28T22:06:44.861Z"
+      "createdAt": "2026-09-28T22:31:30.605Z"
     },
     {
       "_id": "ord_2",
@@ -5533,25 +5529,25 @@
         {
           "status": "Pending",
           "note": "Order placed",
-          "updatedAt": "2026-09-27T22:06:44.861Z"
+          "updatedAt": "2026-09-27T22:31:30.605Z"
         },
         {
           "status": "Confirmed",
           "note": "Bank transfer received",
-          "updatedAt": "2026-09-28T10:06:44.861Z"
+          "updatedAt": "2026-09-28T10:31:30.605Z"
         },
         {
           "status": "Processing",
           "note": "Dispatched from Hall Road warehouse",
-          "updatedAt": "2026-09-28T22:06:44.861Z"
+          "updatedAt": "2026-09-28T22:31:30.605Z"
         },
         {
           "status": "Shipped",
           "note": "Courier tracking # TCS-8921734",
-          "updatedAt": "2026-09-29T10:06:44.861Z"
+          "updatedAt": "2026-09-29T10:31:30.605Z"
         }
       ],
-      "createdAt": "2026-09-27T22:06:44.861Z"
+      "createdAt": "2026-09-27T22:31:30.605Z"
     }
   ],
   "reviews": [
@@ -5566,7 +5562,7 @@
       "title": "Super fast cooling in scorching Lahore heat!",
       "comment": "Got this Hyundai 1 Ton Inverter AC installed in my bedroom. Cooled the room within 10 minutes even when outside temperature was 44°C. Excellent service and original warranty card provided by Hanif Centre.",
       "status": "approved",
-      "createdAt": "2026-09-26T22:06:44.861Z"
+      "createdAt": "2026-09-26T22:31:30.605Z"
     },
     {
       "_id": "rev_2",
@@ -5579,7 +5575,7 @@
       "title": "Best 32 inch QLED colors in Pakistan",
       "comment": "Colors on this TCL QLED are jaw dropping compared to normal LEDs. Sound is loud and Google TV interface is very responsive.",
       "status": "approved",
-      "createdAt": "2026-09-27T20:06:44.861Z"
+      "createdAt": "2026-09-27T20:31:30.605Z"
     }
   ],
   "coupons": [
@@ -5595,7 +5591,7 @@
       "usageLimit": 500,
       "usedCount": 14,
       "isActive": true,
-      "createdAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "cpn_2",
@@ -5609,7 +5605,7 @@
       "usageLimit": 300,
       "usedCount": 8,
       "isActive": true,
-      "createdAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-29T22:31:30.605Z"
     },
     {
       "_id": "cpn_3",
@@ -5623,7 +5619,7 @@
       "usageLimit": 200,
       "usedCount": 22,
       "isActive": true,
-      "createdAt": "2026-09-29T22:06:44.861Z"
+      "createdAt": "2026-09-29T22:31:30.605Z"
     }
   ],
   "contactMessages": [
@@ -5636,7 +5632,7 @@
       "subject": "Bulk discount for 4 Inverter ACs",
       "message": "Need 4 units of TCL 1.5 Ton for our new office near Gulberg. Please let me know your best package rate.",
       "status": "unread",
-      "createdAt": "2026-09-29T10:06:44.861Z"
+      "createdAt": "2026-09-29T10:31:30.605Z"
     }
   ],
   "installmentInquiries": [
@@ -5651,7 +5647,7 @@
       "plan": "12 Months Easy Plan",
       "message": "Interested in 12 month plan with 30% advance payment.",
       "status": "contacted",
-      "createdAt": "2026-09-28T22:06:44.861Z"
+      "createdAt": "2026-09-28T22:31:30.605Z"
     }
   ],
   "siteSettings": {

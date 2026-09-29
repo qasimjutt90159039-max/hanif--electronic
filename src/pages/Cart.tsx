@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ShoppingCart, Trash2, Plus, Minus, ArrowRight, ShieldCheck, Tag, AlertTriangle } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useSettings } from '../context/SettingsContext';
+import { getProductImageUrl, handleProductImageError } from '../utils/productImages';
 
 export const Cart: React.FC = () => {
   const navigate = useNavigate();
@@ -74,11 +75,9 @@ export const Cart: React.FC = () => {
                 <div key={id} className="p-4 sm:p-5 flex flex-col sm:flex-row gap-4 items-center justify-between">
                   <div className="flex items-center gap-4 w-full sm:w-auto">
                     <img
-                      src={product.thumbnail || (product.images && product.images[0])}
+                      src={getProductImageUrl(product)}
                       alt={product.name}
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                      }}
+                      onError={(e) => handleProductImageError(e, product)}
                       className="w-20 h-20 object-contain rounded-xl bg-gray-50 p-2 border border-gray-100 shrink-0"
                     />
                     <div className="min-w-0">

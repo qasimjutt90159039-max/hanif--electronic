@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_fischer-geyser-storage-gas-electric-35-gallons" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="gySh_fischer-geyser-storage-gas-electric-35-gallons" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_fischer-geyser-storage-gas-electric-35-gallons)"/>
+
+  <g filter="url(#gySh_fischer-geyser-storage-gas-electric-35-gallons)">
+    
+      <!-- Cylindrical Storage Geyser -->
+      <rect x="210" y="100" width="180" height="380" rx="35" fill="#E2E8F0" stroke="#94A3B8" stroke-width="3"/>
+      <circle cx="300" cy="200" r="35" fill="#FFFFFF" stroke="#EF4444" stroke-width="3"/>
+      <text x="300" y="206" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#EF4444" text-anchor="middle">
+        65°C
+      </text>
+      <!-- Pipes on bottom -->
+      <rect x="250" y="480" width="20" height="30" fill="#0284C7"/>
+      <rect x="330" y="480" width="20" height="30" fill="#EF4444"/>
+    
+
+    <text x="300" y="165" font-family="'Outfit', sans-serif" font-size="16" font-weight="900" fill="#0369A1" text-anchor="middle" letter-spacing="2">
+      FISCHER
+    </text>
+  </g>
+
+  <g transform="translate(210, 520)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#EA580C"/>
+    <text x="90" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      INSTANT HOT WATER
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_gfc-air-purifier-pure-air-400" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="apSh_gfc-air-purifier-pure-air-400" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_gfc-air-purifier-pure-air-400)"/>
+
+  <g filter="url(#apSh_gfc-air-purifier-pure-air-400)">
+    <!-- Cylindrical Tower Body -->
+    <rect x="210" y="110" width="180" height="380" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+
+    <!-- Circular OLED Display with AQI Ring -->
+    <circle cx="300" cy="190" r="38" fill="#020617" stroke="#10B981" stroke-width="4"/>
+    <text x="300" y="196" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#10B981" text-anchor="middle">
+      012
+    </text>
+    <text x="300" y="212" font-family="sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      PM 2.5
+    </text>
+
+    <!-- 360 Degree Micro Air Ingestion Mesh -->
+    <g fill="#94A3B8" opacity="0.6">
+      <circle cx="240" cy="270" r="3"/><circle cx="257" cy="270" r="3"/><circle cx="274" cy="270" r="3"/><circle cx="291" cy="270" r="3"/><circle cx="308" cy="270" r="3"/><circle cx="325" cy="270" r="3"/><circle cx="342" cy="270" r="3"/><circle cx="359" cy="270" r="3"/><circle cx="240" cy="292" r="3"/><circle cx="257" cy="292" r="3"/><circle cx="274" cy="292" r="3"/><circle cx="291" cy="292" r="3"/><circle cx="308" cy="292" r="3"/><circle cx="325" cy="292" r="3"/><circle cx="342" cy="292" r="3"/><circle cx="359" cy="292" r="3"/><circle cx="240" cy="314" r="3"/><circle cx="257" cy="314" r="3"/><circle cx="274" cy="314" r="3"/><circle cx="291" cy="314" r="3"/><circle cx="308" cy="314" r="3"/><circle cx="325" cy="314" r="3"/><circle cx="342" cy="314" r="3"/><circle cx="359" cy="314" r="3"/><circle cx="240" cy="336" r="3"/><circle cx="257" cy="336" r="3"/><circle cx="274" cy="336" r="3"/><circle cx="291" cy="336" r="3"/><circle cx="308" cy="336" r="3"/><circle cx="325" cy="336" r="3"/><circle cx="342" cy="336" r="3"/><circle cx="359" cy="336" r="3"/><circle cx="240" cy="358" r="3"/><circle cx="257" cy="358" r="3"/><circle cx="274" cy="358" r="3"/><circle cx="291" cy="358" r="3"/><circle cx="308" cy="358" r="3"/><circle cx="325" cy="358" r="3"/><circle cx="342" cy="358" r="3"/><circle cx="359" cy="358" r="3"/><circle cx="240" cy="380" r="3"/><circle cx="257" cy="380" r="3"/><circle cx="274" cy="380" r="3"/><circle cx="291" cy="380" r="3"/><circle cx="308" cy="380" r="3"/><circle cx="325" cy="380" r="3"/><circle cx="342" cy="380" r="3"/><circle cx="359" cy="380" r="3"/>
+    </g>
+
+    <!-- Brand Typography Header -->
+    <text x="300" y="445" font-family="'Outfit', sans-serif" font-size="14" font-weight="900" fill="#1261A0" text-anchor="middle" letter-spacing="1">
+      GFC
+    </text>
+  </g>
+
+  <g transform="translate(210, 520)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#10B981"/>
+    <text x="90" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      TRUE HEPA FILTER
+    </text>
+  </g>
+</svg>

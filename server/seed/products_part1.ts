@@ -17,10 +17,9 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     stock: 15,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+      "/images/products/hyundai-inverter-ac-smart-hac-13t3-turbo-breeze-1-0-ton.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/hyundai-inverter-ac-smart-hac-13t3-turbo-breeze-1-0-ton.svg",
     specifications: { "Capacity": "1.0 Ton (12000 BTU)", "Compressor": "T3 Full DC Inverter", "Refrigerant": "R410A Eco Gas", "Energy Efficiency": "Up to 60% saving", "Warranty": "10 Years Compressor / 1 Year Parts" },
     features: ["T3 Tropicalized Inverter Compressor", "Turbo Breeze Rapid Cooling Mode", "Gold Fin Heat Exchanger", "Auto Clean & Self-Diagnosis"],
     warranty: "10 Years Compressor, 1 Year Parts Official Warranty",
@@ -53,9 +52,9 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     stock: 12,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tcl-savein-31s-smart-inverter-ac-tac-18svn-ex-1-5-ton.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/tcl-savein-31s-smart-inverter-ac-tac-18svn-ex-1-5-ton.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "WiFi": "Smart IoT App Control", "Compressor": "T3 Twin Rotary Inverter", "Warranty": "10 Years Compressor" },
     features: ["Smart WiFi IoT Connectivity", "Gentle Breeze Micro-Hole Vanes", "Deep Clean 55°C High Temp Sterilization"],
     warranty: "10 Years Compressor, 2 Years PCB, 1 Year Parts",
@@ -87,8 +86,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/midea-eco-t3-dc-inverter-smart-ac-1-0-ton.svg"
+    ],
+    thumbnail: "/images/products/midea-eco-t3-dc-inverter-smart-ac-1-0-ton.svg",
     specifications: { "Capacity": "1.0 Ton (12000 BTU)", "Type": "Heat & Cool Inverter", "Gas": "R32 Green Gas" },
     features: ["Gear Shift 50%/75%/100% Power Control", "High-Density Bio Filter", "Tropicalized T3 Outdoor"],
     warranty: "10 Years Compressor Warranty",
@@ -120,8 +121,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-jumbo-prime-plus-t3-inverter-ac-1-5-ton.svg"
+    ],
+    thumbnail: "/images/products/pel-jumbo-prime-plus-t3-inverter-ac-1-5-ton.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "Airflow": "4D Surround Air", "Compressor": "T3+ Super Inverter" },
     features: ["Full 100% Copper Piping", "A++ Energy Rating", "Golden Hydrophilic Fin"],
     warranty: "10 Years Compressor, 1 Year Parts",
@@ -153,8 +156,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 7,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/american-general-t3-heaven-e-smart-1-5-ton.svg"
+    ],
+    thumbnail: "/images/products/american-general-t3-heaven-e-smart-1-5-ton.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "Outdoor Type": "Heavy Duty T3 Condenser", "Voltage": "150V Low Voltage Startup" },
     features: ["Low Voltage Startup from 150V", "Anti-Fungus Self Clean", "Whisper Quiet 24dB Operation"],
     warranty: "10 Years Compressor Warranty",
@@ -186,8 +191,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 8,
     stock: 9,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-cool-breeze-1-5-ton-cool-only-ac.svg"
+    ],
+    thumbnail: "/images/products/pel-cool-breeze-1-5-ton-cool-only-ac.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "Function": "Cooling Only", "Fin Type": "Blue Fin Anti-Corrosion" },
     features: ["Rapid Chill Mode", "Intelligent Sleep Curve", "High Efficiency Fin Coating"],
     warranty: "10 Years Compressor, 1 Year Parts",
@@ -219,8 +226,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/orient-evo-19r-t3-dc-inverter-ac-1-5-ton.svg"
+    ],
+    thumbnail: "/images/products/orient-evo-19r-t3-dc-inverter-ac-1-5-ton.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "Air Throw": "50 Feet", "Smart App": "Orient Smart App Compatible" },
     features: ["Built-in Real Time Power Consumption Meter", "50ft Long Airflow", "100% Copper Tubing"],
     warranty: "10 Years Compressor, 1 Year PCB & Parts",
@@ -252,8 +261,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/hisense-split-ac-12tv60-t3-1-ton.svg"
+    ],
+    thumbnail: "/images/products/hisense-split-ac-12tv60-t3-1-ton.svg",
     specifications: { "Capacity": "1.0 Ton (12000 BTU)", "Compressor": "T3 Rotary Inverter", "Eco Mode": "Yes" },
     features: ["I-Feel Temperature Sensing Remote", "Carbon Filter Air Purification", "Low Noise Design"],
     warranty: "10 Years Compressor, 1 Year Parts",
@@ -285,8 +296,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 20,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-inverter-ac-1-5-ton-hsu-18hns.svg"
+    ],
+    thumbnail: "/images/products/haier-inverter-ac-1-5-ton-hsu-18hns.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "UPS Enabled": "Runs on UPS / Solar", "Self Clean": "99.9% Sterilization Cold Expansion" },
     features: ["UPS Device Integration Support", "Cold Expansion Self Cleaning Tech", "Hyper PCB Protection 130V-260V"],
     warranty: "10 Years Compressor, 4 Years PCB, 1 Year Parts",
@@ -318,8 +331,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 8,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/gree-inverter-ac-1-5-ton-pular-series.svg"
+    ],
+    thumbnail: "/images/products/gree-inverter-ac-1-5-ton-pular-series.svg",
     specifications: { "Capacity": "1.5 Ton (18000 BTU)", "Compressor": "Gree G-10 Inverter", "Airflow": "7 Fan Speed Settings" },
     features: ["G-10 High Torque Inverter Technology", "Seven Fan Speed Controls", "Hidden LED Temperature Display"],
     warranty: "10 Years Compressor, 1 Year Parts",
@@ -354,10 +369,9 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     stock: 18,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&w=800&q=80"
+      "/images/products/tcl-32-inch-qled-smart-google-tv-32s51k.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/tcl-32-inch-qled-smart-google-tv-32s51k.svg",
     specifications: { "Screen Size": "32 Inch", "Display": "QLED Quantum Dot", "OS": "Official Google TV", "Sound": "Dolby Audio 16W", "Connectivity": "WiFi, Bluetooth 5.0, 2x HDMI, USB" },
     features: ["1 Billion+ Vibrant QLED Colors", "Official Google TV with Play Store", "Built-in Google Assistant & Chromecast", "Frameless Metallic Design"],
     warranty: "2 Years Official TCL Pakistan Panel & Parts Warranty",
@@ -389,8 +403,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 11,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/xiaomi-32a2026-32-inch-google-tv.svg"
+    ],
+    thumbnail: "/images/products/xiaomi-32a2026-32-inch-google-tv.svg",
     specifications: { "Screen Size": "32 Inch HD", "OS": "Google TV Android 11", "Audio": "2x 10W DTS-Virtual:X", "Processor": "Quad-core A55" },
     features: ["Vivid Picture Engine Tuning", "360° Bluetooth Voice Remote", "PatchWall Content Hub"],
     warranty: "1 Year Official Brand Warranty",
@@ -422,8 +438,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/tcl-43-inch-smart-google-tv-43p635-4k.svg"
+    ],
+    thumbnail: "/images/products/tcl-43-inch-smart-google-tv-43p635-4k.svg",
     specifications: { "Screen Size": "43 Inch", "Resolution": "3840 x 2160 4K UHD", "HDR": "HDR10 & HLG", "OS": "Google TV" },
     features: ["4K UHD Clarity with AiPQ Engine", "Dynamic Color Enhancer", "Edgeless Minimalist Bezel"],
     warranty: "2 Years Official TCL Warranty",
@@ -455,8 +473,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 9,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/tcl-55-inch-qled-smart-tv-55c645-4k.svg"
+    ],
+    thumbnail: "/images/products/tcl-55-inch-qled-smart-tv-55c645-4k.svg",
     specifications: { "Screen Size": "55 Inch", "Panel": "Quantum Dot QLED", "Refresh Rate": "120Hz DLG Game Mode", "Audio": "Dolby Atmos / DTS-HD" },
     features: ["Quantum Dot Color Purity", "120Hz DLG Game Accelerator", "Dolby Vision Cinema Experience"],
     warranty: "2 Years TCL Official Warranty",
@@ -488,8 +508,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-43-inch-smart-led-tv-h43k66ug.svg"
+    ],
+    thumbnail: "/images/products/haier-43-inch-smart-led-tv-h43k66ug.svg",
     specifications: { "Screen Size": "43 Inch", "Resolution": "3840 x 2160", "OS": "Android 11 Licensed", "Sound": "24W Stereo Speakers" },
     features: ["Zero-Bezel Design", "Google Chromecast Built-in", "Auto Low Latency Mode"],
     warranty: "2 Years Panel, 1 Year Parts Warranty",
@@ -521,8 +543,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/hisense-43-inch-smart-led-tv-43a6k.svg"
+    ],
+    thumbnail: "/images/products/hisense-43-inch-smart-led-tv-43a6k.svg",
     specifications: { "Screen Size": "43 Inch", "Display": "4K Ultra HD Direct LED", "OS": "Google TV", "HDR": "Dolby Vision, HDR10" },
     features: ["Dolby Vision HDR Cinema", "AI Smooth Sports Mode", "Voice Remote with Google Assistant"],
     warranty: "2 Years Brand Warranty",
@@ -554,8 +578,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/samsung-smart-led-tv-43cu7000-crystal-uhd-4k.svg"
+    ],
+    thumbnail: "/images/products/samsung-smart-led-tv-43cu7000-crystal-uhd-4k.svg",
     specifications: { "Screen Size": "43 Inch", "Processor": "Crystal Processor 4K", "OS": "Tizen Smart TV", "Audio": "Q-Symphony 20W" },
     features: ["PurColor Life-like Colors", "Crystal Processor 4K Upscaling", "SmartThings Smart Home Integration"],
     warranty: "1 Year Official Samsung Pakistan Warranty",
@@ -587,8 +613,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 11,
     stock: 13,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/skyworth-smart-led-tv-40e20-40-inch.svg"
+    ],
+    thumbnail: "/images/products/skyworth-smart-led-tv-40e20-40-inch.svg",
     specifications: { "Screen Size": "40 Inch", "Resolution": "1920 x 1080 Full HD", "OS": "Android TV", "Sound": "20W Box Speakers" },
     features: ["Boundless 4.0 Screen Design", "Trochilus Picture Engine", "Eye-Care Flicker Free"],
     warranty: "2 Years Brand Warranty",
@@ -620,8 +648,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 11,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/infinix-smart-tv-43x5-full-hd-android.svg"
+    ],
+    thumbnail: "/images/products/infinix-smart-tv-43x5-full-hd-android.svg",
     specifications: { "Screen Size": "43 Inch", "Resolution": "1920 x 1080 FHD", "OS": "Android 11", "Audio": "24W Box Speakers" },
     features: ["EPIC 2.0 Image Processing", "Full Bezel-less Aesthetic", "TUV Rheinland Low Blue Light"],
     warranty: "1 Year Official Warranty",
@@ -653,8 +683,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/ecostar-smart-led-tv-32-inch-cx-32u571.svg"
+    ],
+    thumbnail: "/images/products/ecostar-smart-led-tv-32-inch-cx-32u571.svg",
     specifications: { "Screen Size": "32 Inch", "Panel Type": "A+ Grade IPS", "Connectivity": "2 HDMI, 2 USB, WiFi" },
     features: ["High Dynamic Contrast", "Nature View Color Calibration", "Surround Sound Presets"],
     warranty: "2 Years Panel Warranty",
@@ -689,10 +721,9 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     stock: 14,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=800&q=80"
+      "/images/products/haier-hrf-246-ip-smart-inverter-refrigerator.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/haier-hrf-246-ip-smart-inverter-refrigerator.svg",
     specifications: { "Capacity": "9 Cu. Ft. (246 Liters)", "Compressor": "Smart Inverter", "Voltage": "105V - 260V Stabilizer Free", "Refrigerant": "R600a Eco Gas" },
     features: ["1 Hour Icing Technology", "Runs on Solar / UPS", "T-Frost Thick Insulation", "Food Grade Interior"],
     warranty: "10 Years Compressor, 1 Year Parts Official Haier Warranty",
@@ -724,8 +755,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/kenwood-krf-22257-new-persona-plus-series-9-cft-refrigerator.svg"
+    ],
+    thumbnail: "/images/products/kenwood-krf-22257-new-persona-plus-series-9-cft-refrigerator.svg",
     specifications: { "Capacity": "9 Cu. Ft.", "Door Finish": "Tempered Mirror Glass", "Compressor": "SECOP European Tech" },
     features: ["Scratch-Resistant Glass Door", "Removable Anti-Fungal Gasket", "Heavy Duty Wire Racks"],
     warranty: "10 Years Compressor Warranty",
@@ -757,8 +790,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-hrf-346-iapa-digital-inverter-refrigerator-12-cft.svg"
+    ],
+    thumbnail: "/images/products/haier-hrf-346-iapa-digital-inverter-refrigerator-12-cft.svg",
     specifications: { "Capacity": "12 Cu. Ft. (346 Liters)", "Control": "External Digital Touch Panel", "Inverter": "2nd Gen Digital Inverter" },
     features: ["A.SPE Fresh Sterilization Module", "Exterior Digital Temperature Touch Panel", "Turbo Freezing Zone"],
     warranty: "10 Years Compressor, 1 Year Parts",
@@ -790,8 +825,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 9,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/dawlance-inverter-refrigerator-91996-chrome-pro-14-cft.svg"
+    ],
+    thumbnail: "/images/products/dawlance-inverter-refrigerator-91996-chrome-pro-14-cft.svg",
     specifications: { "Capacity": "14 Cu. Ft.", "Technology": "Nature Lock Vegetable Box", "Warranty": "12 Years Compressor" },
     features: ["Nature Lock Humidity Balance", "55% Energy Saving Inverter", "Side by Side Air Cooling"],
     warranty: "12 Years Inverter Compressor Warranty",
@@ -823,8 +860,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-inverter-refrigerator-pril-22250-11-cft.svg"
+    ],
+    thumbnail: "/images/products/pel-inverter-refrigerator-pril-22250-11-cft.svg",
     specifications: { "Capacity": "11 Cu. Ft.", "Insulation": "Thick Cell Polyurethane", "Gas": "R600a Pure" },
     features: ["10 Hours Cool Retention", "Crisp Humidity Slider", "Copper Condenser Coil"],
     warranty: "10 Years Compressor Warranty",
@@ -856,8 +895,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/kenwood-inverter-refrigerator-glass-mirror-12-cft.svg"
+    ],
+    thumbnail: "/images/products/kenwood-inverter-refrigerator-glass-mirror-12-cft.svg",
     specifications: { "Capacity": "12 Cu. Ft.", "Finish": "Reflective Mirror Toughened Glass", "Lighting": "Vertical Tower LED" },
     features: ["Edge to Edge Glass Design", "Deodorizing Carbon Matrix", "Heavy Load Tempered Shelves"],
     warranty: "10 Years Compressor Warranty",
@@ -889,8 +930,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 9,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/homage-refrigerator-hr-243-9-cft.svg"
+    ],
+    thumbnail: "/images/products/homage-refrigerator-hr-243-9-cft.svg",
     specifications: { "Capacity": "9 Cu. Ft.", "Condenser": "External Steel Wire", "Noise": "Under 38 dB" },
     features: ["Spacious Freezer Compartment", "Adjustable Leveling Legs", "Eco Friendly Gas"],
     warranty: "10 Years Compressor Warranty",
@@ -922,8 +965,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 6,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/electrolux-refrigerator-frost-free-multi-flow-15-cft.svg"
+    ],
+    thumbnail: "/images/products/electrolux-refrigerator-frost-free-multi-flow-15-cft.svg",
     specifications: { "Capacity": "15 Cu. Ft.", "Defrosting": "100% Frost Free No Ice Buildup", "Airflow": "360 Multi Air Flow" },
     features: ["No Frost Defrost Technology", "TasteLock Freshness Chamber", "Dual Evaporator System"],
     warranty: "10 Years Compressor Warranty",
@@ -958,9 +1003,9 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     stock: 14,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"
+      "/images/products/dawlance-1051-champagne-glass-door-water-dispenser.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/dawlance-1051-champagne-glass-door-water-dispenser.svg",
     specifications: { "Taps": "3 (Hot, Cold, Normal)", "Cabinet": "20 Liter Mini Refrigerator", "Compressor": "Danfoss High Performance" },
     features: ["Child Safety Lock for Hot Water", "Stainless Steel Anti-Bacterial Water Tank", "Designer Glass Front Door"],
     warranty: "3 Years Compressor, 1 Year Parts",
@@ -992,8 +1037,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/dawlance-1051-beige-red-glass-door-water-dispenser.svg"
+    ],
+    thumbnail: "/images/products/dawlance-1051-beige-red-glass-door-water-dispenser.svg",
     specifications: { "Taps": "3 Taps", "Capacity Cold": "4 Liters/Hour", "Capacity Hot": "5 Liters/Hour" },
     features: ["Luxury Beige Red Tempered Glass", "Low Power Eco Heating System", "Removable Drip Tray"],
     warranty: "3 Years Compressor Warranty",
@@ -1025,8 +1072,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 11,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-pwd-315-smart-water-dispenser.svg"
+    ],
+    thumbnail: "/images/products/pel-pwd-315-smart-water-dispenser.svg",
     specifications: { "Taps": "3 Push Taps", "Tank": "SS304 Food Grade Stainless Steel", "Cooling Type": "Compressor Cooling" },
     features: ["Food Grade Hygienic Tank", "Convenient Push Faucets", "Built-in Lower Refrigerator"],
     warranty: "3 Years Compressor Warranty",
@@ -1058,8 +1107,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/midea-yl-2037s-b-top-load-water-dispenser.svg"
+    ],
+    thumbnail: "/images/products/midea-yl-2037s-b-top-load-water-dispenser.svg",
     specifications: { "Type": "Top Load 3-Tap", "Compressor": "High Efficiency Danfoss Grade", "Warranty": "3 Years Compressor" },
     features: ["Overheat Safety Shutoff", "Quiet Running Compressor", "Compact Minimalist Footprint"],
     warranty: "3 Years Compressor Warranty",
@@ -1091,8 +1142,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 8,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/fischer-fe-25-s-s-slim-electric-water-cooler.svg"
+    ],
+    thumbnail: "/images/products/fischer-fe-25-s-s-slim-electric-water-cooler.svg",
     specifications: { "Tank Capacity": "25 Liters Cold Water", "Material": "Non-Magnetic Food Grade Stainless Steel", "Taps": "2 Heavy Brass Faucets" },
     features: ["Non-Magnetic Stainless Steel Body", "Heavy Duty Pure Copper Cooling Coil", "Thermostat Temperature Regulator"],
     warranty: "1 Year Official Fischer Warranty",
@@ -1124,8 +1177,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 13,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/super-asia-water-dispenser-heavy-duty-3-tap.svg"
+    ],
+    thumbnail: "/images/products/super-asia-water-dispenser-heavy-duty-3-tap.svg",
     specifications: { "Taps": "3 Taps", "Capacity": "Extra Chill High Flow", "Refrigerant": "R134a" },
     features: ["High Capacity Cooling Reservoir", "Shock-Proof Electrical Components", "Removable Spill Grid"],
     warranty: "3 Years Compressor Warranty",
@@ -1157,8 +1212,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/gree-water-dispenser-luxury-series.svg"
+    ],
+    thumbnail: "/images/products/gree-water-dispenser-luxury-series.svg",
     specifications: { "Taps": "3 Taps", "Compressor": "Gree In-House High COP", "Safety": "Child Safety Hot Tap" },
     features: ["Whisper Quiet Vibration-Free Core", "High Chilling Recovery Speed", "Double Overheat Cutout"],
     warranty: "3 Years Compressor Warranty",
@@ -1190,8 +1247,10 @@ export const PRODUCTS_PART_1: SeedProduct[] = [
     discountPercentage: 10,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1546554137-f86b9593a222?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/canon-water-dispenser-classic-3-tap.svg"
+    ],
+    thumbnail: "/images/products/canon-water-dispenser-classic-3-tap.svg",
     specifications: { "Taps": "3 Taps", "Tanks": "Twin Stainless Steel", "Storage": "Mini Refrigerator" },
     features: ["Quick Dispense Spigots", "Easy Clean Removable Tray", "Energy Efficient Thermostat"],
     warranty: "3 Years Compressor Warranty",

@@ -23,6 +23,7 @@ import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import { useCompare } from '../context/CompareContext';
 import { useSettings } from '../context/SettingsContext';
+import { getProductImageUrl, handleProductImageError } from '../utils/productImages';
 import { useToast } from '../context/ToastContext';
 import { ProductCard } from '../components/common/ProductCard';
 
@@ -188,11 +189,9 @@ export const ProductDetail: React.FC = () => {
             ) : null}
 
             <img
-              src={selectedImage || product.thumbnail}
+              src={selectedImage || getProductImageUrl(product)}
               alt={product.name}
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-              }}
+              onError={(e) => handleProductImageError(e, product)}
               className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105"
             />
           </div>
@@ -213,9 +212,7 @@ export const ProductDetail: React.FC = () => {
                   <img
                     src={img}
                     alt=""
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                    }}
+                    onError={(e) => handleProductImageError(e, product)}
                     className="w-full h-full object-contain"
                   />
                 </button>

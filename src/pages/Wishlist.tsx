@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Heart, ShoppingCart, Trash2, ArrowRight } from 'lucide-react';
 import { useWishlist } from '../context/WishlistContext';
 import { useCart } from '../context/CartContext';
+import { getProductImageUrl, handleProductImageError } from '../utils/productImages';
 
 export const Wishlist: React.FC = () => {
   const { wishlist, removeFromWishlist, clearWishlist } = useWishlist();
@@ -46,11 +47,9 @@ export const Wishlist: React.FC = () => {
               <div>
                 <div className="h-44 bg-gray-50 rounded-xl p-3 flex items-center justify-center mb-3">
                   <img
-                    src={p.thumbnail || (p.images && p.images[0])}
+                    src={getProductImageUrl(p)}
                     alt={p.name}
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                    }}
+                    onError={(e) => handleProductImageError(e, p)}
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>

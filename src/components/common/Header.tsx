@@ -21,6 +21,7 @@ import { useCompare } from '../../context/CompareContext';
 import { useSettings } from '../../context/SettingsContext';
 import { api } from '../../services/api';
 import { Product } from '../../types';
+import { getProductImageUrl, handleProductImageError } from '../../utils/productImages';
 
 export const Header: React.FC = () => {
   const navigate = useNavigate();
@@ -171,11 +172,9 @@ export const Header: React.FC = () => {
                         className="flex items-center gap-3 p-3 hover:bg-sky-50/60 transition-colors group"
                       >
                         <img
-                          src={p.thumbnail || (p.images && p.images[0])}
+                          src={getProductImageUrl(p)}
                           alt={p.name}
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                          }}
+                          onError={(e) => handleProductImageError(e, p)}
                           className="w-12 h-12 object-contain rounded-lg bg-white border border-gray-100 p-1 shrink-0"
                         />
                         <div className="flex-1 min-w-0">

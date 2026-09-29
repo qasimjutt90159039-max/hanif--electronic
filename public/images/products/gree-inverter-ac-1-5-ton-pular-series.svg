@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_gree-inverter-ac-1-5-ton-pular-series" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="chassis_gree-inverter-ac-1-5-ton-pular-series" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <filter id="sh_gree-inverter-ac-1-5-ton-pular-series" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_gree-inverter-ac-1-5-ton-pular-series)"/>
+  <circle cx="300" cy="280" r="220" fill="#E0F2FE" opacity="0.6"/>
+  <path d="M 120 370 Q 300 440 480 370" fill="none" stroke="#BAE6FD" stroke-width="6" opacity="0.7" stroke-dasharray="12 8"/>
+  <path d="M 150 400 Q 300 470 450 400" fill="none" stroke="#7DD3FC" stroke-width="4" opacity="0.5" stroke-dasharray="16 10"/>
+
+  <g filter="url(#sh_gree-inverter-ac-1-5-ton-pular-series)">
+    <rect x="70" y="210" width="460" height="135" rx="16" fill="url(#chassis_gree-inverter-ac-1-5-ton-pular-series)" stroke="#CBD5E1" stroke-width="2"/>
+    <g opacity="0.4">
+      <line x1="100" y1="225" x2="500" y2="225" stroke="#94A3B8" stroke-width="2"/>
+      <line x1="100" y1="233" x2="500" y2="233" stroke="#94A3B8" stroke-width="2"/>
+      <line x1="100" y1="241" x2="500" y2="241" stroke="#94A3B8" stroke-width="2"/>
+    </g>
+    <rect x="85" y="315" width="430" height="18" rx="5" fill="#E2E8F0" stroke="#CBD5E1" stroke-width="1.5"/>
+    <line x1="90" y1="324" x2="510" y2="324" stroke="#38BDF8" stroke-width="2" opacity="0.8"/>
+    <rect x="70" y="295" width="460" height="4" fill="#80E27E"/>
+
+    <text x="110" y="278" font-family="'Outfit', sans-serif" font-size="20" font-weight="900" fill="#009944" letter-spacing="2">
+      GREE
+    </text>
+    <text x="110" y="295" font-family="sans-serif" font-size="10" font-weight="700" fill="#1E293B" opacity="0.6">
+      DC INVERTER T3
+    </text>
+
+    <rect x="420" y="255" width="75" height="38" rx="8" fill="#0F172A"/>
+    <text x="457" y="281" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#38BDF8" text-anchor="middle">
+      22°C
+    </text>
+  </g>
+
+  <g transform="translate(180, 480)">
+    <rect x="0" y="0" width="110" height="34" rx="17" fill="#0284C7"/>
+    <text x="55" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1.5 TON</text>
+
+    <rect x="130" y="0" width="110" height="34" rx="17" fill="#10B981"/>
+    <text x="185" y="22" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">60% SAVING</text>
+  </g>
+</svg>

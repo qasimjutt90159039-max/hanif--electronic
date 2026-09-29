@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_ecostar-smart-led-tv-32-inch-cx-32u571" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="sc_ecostar-smart-led-tv-32-inch-cx-32u571" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="50%" stop-color="#4338CA"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="tvSh_ecostar-smart-led-tv-32-inch-cx-32u571" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_ecostar-smart-led-tv-32-inch-cx-32u571)"/>
+
+  <g filter="url(#tvSh_ecostar-smart-led-tv-32-inch-cx-32u571)">
+    <polygon points="150,445 130,480 145,480 160,445" fill="#71717A"/>
+    <polygon points="450,445 440,445 455,480 470,480" fill="#71717A"/>
+
+    <rect x="65" y="140" width="470" height="305" rx="8" fill="#18181B" stroke="#3F3F46" stroke-width="2"/>
+    <rect x="73" y="148" width="454" height="280" rx="4" fill="url(#sc_ecostar-smart-led-tv-32-inch-cx-32u571)"/>
+
+    <circle cx="390" cy="240" r="90" fill="#FFFFFF" opacity="0.15"/>
+    <path d="M 73 340 Q 200 240 340 310 T 527 280 L 527 428 L 73 428 Z" fill="#000000" opacity="0.3"/>
+    <path d="M 73 370 Q 250 280 400 350 T 527 330 L 527 428 L 73 428 Z" fill="#000000" opacity="0.4"/>
+
+    <rect x="425" y="165" width="85" height="26" rx="6" fill="#000000" opacity="0.6"/>
+    <text x="467" y="183" font-family="'Outfit', sans-serif" font-size="12" font-weight="900" fill="#FACC15" text-anchor="middle">
+      4K HDR
+    </text>
+
+    <circle cx="100" cy="178" r="8" fill="#FFFFFF" opacity="0.8"/>
+    <text x="115" y="182" font-family="sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" opacity="0.9">SMART TV</text>
+
+    <rect x="65" y="428" width="470" height="17" fill="#18181B"/>
+    <text x="300" y="440" font-family="'Outfit', sans-serif" font-size="10" font-weight="800" fill="#E4E4E7" text-anchor="middle" letter-spacing="2">
+      ECOSTAR
+    </text>
+  </g>
+
+  <g transform="translate(230, 510)">
+    <rect x="0" y="0" width="140" height="34" rx="17" fill="#1E293B"/>
+    <text x="70" y="22" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" fill="#38BDF8" text-anchor="middle">
+      32" SMART HD
+    </text>
+  </g>
+</svg>

@@ -6,6 +6,7 @@ import { useCart } from '../../context/CartContext';
 import { useWishlist } from '../../context/WishlistContext';
 import { useCompare } from '../../context/CompareContext';
 import { useSettings } from '../../context/SettingsContext';
+import { getProductImageUrl, handleProductImageError } from '../../utils/productImages';
 
 interface ProductCardProps {
   product: Product;
@@ -20,8 +21,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
   const { addToCompare, isInCompare } = useCompare();
   const { settings } = useSettings();
 
+  const imageSrc = getProductImageUrl(product);
   const [quickViewOpen, setQuickViewOpen] = useState(false);
-  const [selectedImg, setSelectedImg] = useState(product.thumbnail || (product.images && product.images[0]) || '');
+  const [selectedImg, setSelectedImg] = useState(imageSrc);
 
   const id = product.id || product._id || '';
   const inWishlist = isInWishlist(id);
@@ -39,11 +41,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         {/* Product Image */}
         <div className="w-full sm:w-48 h-48 shrink-0 relative bg-gray-50 rounded-xl overflow-hidden p-3 flex items-center justify-center">
           <img
-            src={product.thumbnail || (product.images && product.images[0])}
+            src={imageSrc}
             alt={product.name}
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-            }}
+            onError={(e) => handleProductImageError(e, product)}
             className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
@@ -205,11 +205,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         <Link to={`/product/${product.slug}`} className="block relative pt-6 px-4 bg-gradient-to-b from-gray-50/50 to-white">
           <div className="w-full h-48 sm:h-52 flex items-center justify-center p-2 overflow-hidden">
             <img
-              src={product.thumbnail || (product.images && product.images[0])}
+              src={imageSrc}
               alt={product.name}
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-              }}
+              onError={(e) => handleProductImageError(e, product)}
               className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
@@ -313,11 +311,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
               <div>
                 <div className="h-64 bg-gray-50 rounded-2xl p-4 flex items-center justify-center border border-gray-100">
                   <img
-                    src={selectedImg || product.thumbnail}
+                    src={selectedImg || imageSrc}
                     alt={product.name}
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                    }}
+                    onError={(e) => handleProductImageError(e, product)}
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
@@ -334,9 +330,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
                         <img
                           src={img}
                           alt=""
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=600&q=80';
-                          }}
+                          onError={(e) => handleProductImageError(e, product)}
                           className="w-full h-full object-contain"
                         />
                       </button>

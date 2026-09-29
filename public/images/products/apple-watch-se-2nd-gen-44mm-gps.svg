@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_apple-watch-se-2nd-gen-44mm-gps" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="wtSh_apple-watch-se-2nd-gen-44mm-gps" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_apple-watch-se-2nd-gen-44mm-gps)"/>
+
+  <g filter="url(#wtSh_apple-watch-se-2nd-gen-44mm-gps)">
+    <!-- Top & Bottom Watch Straps -->
+    <rect x="260" y="70" width="80" height="150" rx="8" fill="#334155"/>
+    <rect x="260" y="380" width="80" height="150" rx="8" fill="#334155"/>
+
+    
+      <!-- Apple Watch Curved Square -->
+      <rect x="220" y="190" width="160" height="190" rx="35" fill="#18181B" stroke="#475569" stroke-width="4"/>
+      <rect x="230" y="200" width="140" height="170" rx="28" fill="#020617"/>
+      <!-- Digital Crown -->
+      <rect x="380" y="225" width="8" height="35" rx="3" fill="#64748B"/>
+    
+
+    <!-- Display Face -->
+    <text x="300" y="275" font-family="'Outfit', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+      10:09
+    </text>
+    <text x="300" y="300" font-family="sans-serif" font-size="10" font-weight="bold" fill="#10B981" text-anchor="middle">
+      ♥ 78 BPM | 8,420 STEPS
+    </text>
+    <text x="300" y="325" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#2997FF" text-anchor="middle">
+      APPLE
+    </text>
+  </g>
+
+  <g transform="translate(220, 520)">
+    <rect x="0" y="0" width="160" height="34" rx="17" fill="#0F172A"/>
+    <text x="80" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#38BDF8" text-anchor="middle">
+      AMOLED DISPLAY
+    </text>
+  </g>
+</svg>

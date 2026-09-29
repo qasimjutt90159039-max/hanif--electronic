@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="ftSh_motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline)"/>
+
+  <g filter="url(#ftSh_motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline)">
+    
+      <!-- Heavy Duty Motorized Treadmill -->
+      <!-- Running Deck Base -->
+      <polygon points="90,440 480,410 490,445 100,475" fill="#1E293B" stroke="#0F172A" stroke-width="3"/>
+      <!-- Running Belt -->
+      <polygon points="120,445 460,420 465,438 125,463" fill="#020617"/>
+      <!-- Motor Hood Housing -->
+      <rect x="420" y="380" width="90" height="55" rx="8" fill="#DC2626"/>
+      <!-- Upright Handrails -->
+      <line x1="430" y1="400" x2="380" y2="200" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+      <line x1="380" y1="200" x2="270" y2="220" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+      <!-- Digital LCD Console -->
+      <rect x="330" y="160" width="110" height="60" rx="8" fill="#0F172A" stroke="#DC2626" stroke-width="2"/>
+      <text x="385" y="195" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#10B981" text-anchor="middle">
+        12.5 KM/H
+      </text>
+    
+  </g>
+
+  <g transform="translate(200, 520)">
+    <rect x="0" y="0" width="200" height="34" rx="17" fill="#0F172A"/>
+    <text x="100" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#DC2626" text-anchor="middle">
+      HEAVY DUTY FITNESS
+    </text>
+  </g>
+</svg>

@@ -16,8 +16,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 20,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/super-asia-air-cooler-ecm-5000-plus.svg"
+    ],
+    thumbnail: "/images/products/super-asia-air-cooler-ecm-5000-plus.svg",
     specifications: { "Water Tank": "70 Liters", "Cooling Media": "3-Sided High Density Honeycomb Pads", "Fan": "Aerodynamic Powerful Fan Blade" },
     features: ["Top Ice Chamber for Instant Chill", "Heavy Duty Pure Copper Motor", "Caster Wheels for Easy Mobility"],
     warranty: "1 Year Official Warranty",
@@ -49,8 +51,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/boss-air-cooler-ecm-7000-jumbo.svg"
+    ],
+    thumbnail: "/images/products/boss-air-cooler-ecm-7000-jumbo.svg",
     specifications: { "Water Tank": "90 Liters Jumbo", "Air Throw": "45 Feet Long Air Throw", "Power": "180W Low Electricity Usage" },
     features: ["Continuous Water Inlet Connection", "Triple Thick Honeycomb Cooling Matrix", "Multi-Directional Louvers"],
     warranty: "1 Year Motor Warranty",
@@ -82,8 +86,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/canon-air-cooler-storm-60l.svg"
+    ],
+    thumbnail: "/images/products/canon-air-cooler-storm-60l.svg",
     specifications: { "Capacity": "60 Liters", "Motor": "100% Copper Winding", "Inverter Friendly": "Yes, runs on UPS/Solar" },
     features: ["Inverter Friendly Low Power Consumption", "Dust & Mosquito Protective Net", "Turbo Air Throw"],
     warranty: "1 Year Official Warranty",
@@ -115,8 +121,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/nasgas-air-cooler-nac-9000-turbo.svg"
+    ],
+    thumbnail: "/images/products/nasgas-air-cooler-nac-9000-turbo.svg",
     specifications: { "Capacity": "75 Liters", "Material": "Virgin High Impact ABS", "Pump": "Heavy Duty Submersible" },
     features: ["Double Sized Ice Compartment", "Long Throw Aerodynamic Louvers", "Pure Copper Motor"],
     warranty: "1 Year Nasgas Warranty",
@@ -148,8 +156,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pakfans-air-cooler-pf-700-heavy-metal.svg"
+    ],
+    thumbnail: "/images/products/pakfans-air-cooler-pf-700-heavy-metal.svg",
     specifications: { "Body": "Galvanized Heavy Steel Sheet", "Motor": "Pakfans 100% Pure Copper", "Water Tank": "65 Liters" },
     features: ["Heavy Gauge Galvanized Sheet", "Legendary Pakfans Copper Motor", "High Velocity Steel Fan Blades"],
     warranty: "2 Years Motor Warranty",
@@ -181,8 +191,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/royal-air-cooler-deluxe-model-55l.svg"
+    ],
+    thumbnail: "/images/products/royal-air-cooler-deluxe-model-55l.svg",
     specifications: { "Capacity": "55 Liters", "Noise": "Low Noise Night Mode", "Swing": "Motorized Auto Oscillation" },
     features: ["Motorized Oscillating Air Vanes", "Low Sound Output for Bedrooms", "Compact Footprint"],
     warranty: "1 Year Official Warranty",
@@ -215,9 +227,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 16,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"
+      "/images/products/xiaomi-air-purifier-smart-4-pro.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/xiaomi-air-purifier-smart-4-pro.svg",
     specifications: { "CADR": "500 m3/h Clean Air", "Filter": "High-Efficiency 3-in-1 HEPA + Activated Carbon", "Coverage": "Up to 60 m2 Room", "Noise": "33.7 dB Whisper Quiet" },
     features: ["Real-Time PM2.5 Air Quality OLED Indicator", "Negative Air Ionization for Forest Freshness", "Mi Home & Google Assistant Integration"],
     warranty: "1 Year Official Xiaomi Pakistan Warranty",
@@ -249,8 +261,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/philips-air-purifier-series-1000i.svg"
+    ],
+    thumbnail: "/images/products/philips-air-purifier-series-1000i.svg",
     specifications: { "Filter": "NanoProtect HEPA + Active Carbon", "CADR": "300 m3/h", "Sensor": "AeraSense Professional Grade" },
     features: ["Color Coded Air Quality Ring", "Quiet Sleep Mode with Dimmed Lights", "Removes Allergens, Viruses and Smoke"],
     warranty: "2 Years Worldwide Philips Warranty",
@@ -282,8 +296,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/gfc-air-purifier-pure-air-400.svg"
+    ],
+    thumbnail: "/images/products/gfc-air-purifier-pure-air-400.svg",
     specifications: { "CADR": "380 m3/h", "Filtration": "True HEPA H13 Grade", "Timer": "1-8 Hours Timer" },
     features: ["True HEPA H13 Filtration", "VOC & Chemical Odor Reduction", "Filter Replacement Reminder"],
     warranty: "1 Year Official GFC Warranty",
@@ -315,8 +331,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 18,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/super-asia-air-purifier-sap-200-smog-shield.svg"
+    ],
+    thumbnail: "/images/products/super-asia-air-purifier-sap-200-smog-shield.svg",
     specifications: { "Filtration": "Medical Grade H13 HEPA", "Power": "45W Low Consumption", "Noise": "28 dB in Sleep Mode" },
     features: ["Child Lock Safety Function", "Activated Carbon Sponge", "Ultra Quiet Night Operation"],
     warranty: "1 Year Official Warranty",
@@ -351,9 +369,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 14,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"
+      "/images/products/panasonic-vacuum-cleaner-mc-cg713-2000w-drum.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/panasonic-vacuum-cleaner-mc-cg713-2000w-drum.svg",
     specifications: { "Power": "2000W Input", "Dust Capacity": "18 Liters Metal Drum", "Functions": "Suction & High Velocity Blower", "Cord": "8 Meter Long Cord" },
     features: ["Built-in Blower Function for Lawns and Patios", "Durable Steel Drum Construction", "Anti-Bacteria Exhaust Filter"],
     warranty: "1 Year Official Panasonic Warranty",
@@ -385,8 +403,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/kenwood-vacuum-cleaner-vbp80-2200w.svg"
+    ],
+    thumbnail: "/images/products/kenwood-vacuum-cleaner-vbp80-2200w.svg",
     specifications: { "Power": "2200W Max Suction", "Capacity": "25 Liters Large Drum", "Filter": "Washable Heavy Cloth Filter" },
     features: ["Massive 25-Liter Dust Storage", "Telescopic Steel Extension Tube", "Crevice & Upholstery Attachments"],
     warranty: "1 Year Kenwood Official Warranty",
@@ -418,8 +438,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/westpoint-vacuum-cleaner-wf-932-wet-dry.svg"
+    ],
+    thumbnail: "/images/products/westpoint-vacuum-cleaner-wf-932-wet-dry.svg",
     specifications: { "Type": "Wet and Dry Cleaning", "Power": "1800W", "Tank": "20 Liter Heavy Plastic Reservoir" },
     features: ["Liquid Spill Extraction Capacity", "Blower Port for Clearing Dust", "Overfill Float Safety Valve"],
     warranty: "2 Years Official Warranty",
@@ -451,8 +473,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/hitachi-vacuum-cleaner-cv-950y-2100w.svg"
+    ],
+    thumbnail: "/images/products/hitachi-vacuum-cleaner-cv-950y-2100w.svg",
     specifications: { "Motor": "2100W High Motor Life", "Origin": "Made in Thailand (Hitachi Japan Tech)", "Drum": "Solid Metal Body" },
     features: ["Convenient Dust Disposal Handle", "Rugged Steel Casing", "Blower Functionality"],
     warranty: "1 Year Official Warranty",
@@ -487,9 +511,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 10,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      "/images/products/dell-inspiron-15-3520-core-i5-12th-gen.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/dell-inspiron-15-3520-core-i5-12th-gen.svg",
     specifications: { "Processor": "Intel Core i5-1235U (Up to 4.4 GHz)", "RAM": "8GB DDR4 (Upgradable)", "Storage": "512GB PCIe NVMe SSD", "Display": "15.6 Inch FHD 120Hz IPS" },
     features: ["Smooth 120Hz Refresh Rate Display", "ExpressCharge 80% in 60 mins", "Lift Hinge for Ergonomic Typing"],
     warranty: "1 Year Official Dell Warranty",
@@ -521,8 +545,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 9,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/hp-15s-fq5000-core-i5-12th-gen.svg"
+    ],
+    thumbnail: "/images/products/hp-15s-fq5000-core-i5-12th-gen.svg",
     specifications: { "Processor": "Intel Core i5-1235U", "Memory": "8GB DDR4-3200", "Storage": "512GB NVMe M.2 SSD", "Battery": "Up to 7.5 Hours" },
     features: ["Micro-Edge Bezel Display", "HP Fast Charge Technology", "Dual Array Digital Microphones"],
     warranty: "1 Year HP Official Warranty",
@@ -554,8 +580,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 7,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/lenovo-ideapad-3-core-i7-12th-gen-16gb.svg"
+    ],
+    thumbnail: "/images/products/lenovo-ideapad-3-core-i7-12th-gen-16gb.svg",
     specifications: { "CPU": "Intel Core i7-1255U (Up to 4.7 GHz)", "RAM": "16GB Dual Channel DDR4", "Storage": "512GB PCIe 4.0 SSD", "Sound": "Dolby Audio Stereo" },
     features: ["Physical Webcam Privacy Shutter", "Lenovo Eye Care Display Mode", "Intelligent Thermal Cooling Profiles"],
     warranty: "1 Year Lenovo Warranty",
@@ -590,9 +618,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 15,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
+      "/images/products/samsung-galaxy-a55-5g-8gb-256gb.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/samsung-galaxy-a55-5g-8gb-256gb.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Display": "6.6 Inch Super AMOLED 120Hz HDR10+", "Camera": "50MP Main with OIS + 12MP Ultra-wide + 5MP Macro", "Battery": "5000 mAh with 25W Fast Charge" },
     features: ["IP67 Dust & Water Resistance", "Corning Gorilla Glass Victus+ Front & Back", "4 Generations of OS Updates"],
     warranty: "1 Year Official Samsung Pakistan Warranty",
@@ -624,8 +652,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 8,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/oppo-reno-11f-5g-8gb-256gb.svg"
+    ],
+    thumbnail: "/images/products/oppo-reno-11f-5g-8gb-256gb.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Charging": "67W SUPERVOOC Flash Charge", "Display": "6.7 Inch 120Hz Borderless AMOLED" },
     features: ["67W Rapid Battery Charge in 48 mins", "Ultra-Volume 300% Mode", "IP65 Water and Dust Resistance"],
     warranty: "1 Year Official Oppo Warranty",
@@ -657,8 +687,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 7,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/vivo-v30e-5g-8gb-256gb-studio-quality-aura-light.svg"
+    ],
+    thumbnail: "/images/products/vivo-v30e-5g-8gb-256gb-studio-quality-aura-light.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Sensor": "Sony IMX882 50MP OIS", "Battery": "5500 mAh Battery with 4-Year Durability" },
     features: ["Aura Light 2.0 Temperature Tuned Portrait", "3D Curved Glass Display", "Qualcomm Snapdragon 6 Gen 1"],
     warranty: "1 Year Official Vivo Warranty",
@@ -690,8 +722,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/realme-12-plus-5g-8gb-256gb-pioneer-watch-design.svg"
+    ],
+    thumbnail: "/images/products/realme-12-plus-5g-8gb-256gb-pioneer-watch-design.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Camera": "Sony LYT-600 OIS Master Camera", "Charging": "67W SuperVOOC" },
     features: ["Pioneer Luxury Watch Design", "Rainwater Smart Touch Technology", "Vapor Chamber Cooling System"],
     warranty: "1 Year Official Realme Warranty",
@@ -723,8 +757,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 8,
     stock: 18,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/infinix-note-40-pro-8gb-256gb-all-round-fastcharge.svg"
+    ],
+    thumbnail: "/images/products/infinix-note-40-pro-8gb-256gb-all-round-fastcharge.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Wireless Charging": "20W Wireless MagCharge Compatible", "Audio": "Dual Speakers Tuned by JBL" },
     features: ["Active Halo AI Lighting on Back", "Cheetah X1 Power Management Chip", "Bypass Charge 2.0 for Gaming"],
     warranty: "1 Year Official Warranty",
@@ -756,8 +792,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 8,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/tecno-camon-30-pro-12gb-512gb-imaging-master.svg"
+    ],
+    thumbnail: "/images/products/tecno-camon-30-pro-12gb-512gb-imaging-master.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Processor": "Dimensity 8200 Ultimate 4nm", "Display": "6.78 Inch 144Hz 1.5K AMOLED" },
     features: ["Classic Camera Aesthetic Design", "Dolby Atmos Dual Stereo Speakers", "Action Red Breathing Light Indicator"],
     warranty: "1 Year Official Tecno Warranty",
@@ -789,8 +827,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 9,
     stock: 17,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/xiaomi-redmi-note-13-pro-8gb-256gb-200mp-camera.svg"
+    ],
+    thumbnail: "/images/products/xiaomi-redmi-note-13-pro-8gb-256gb-200mp-camera.svg",
     specifications: { "PTA Status": "Official PTA Approved", "Camera": "200MP Ultra-Clear with OIS + EIS", "Charging": "67W Turbo Charge In Box" },
     features: ["Lossless 4x Optical-grade Sensor Zoom", "Corning Gorilla Glass 5 Protection", "In-Screen Fingerprint Sensor"],
     warranty: "1 Year Official Xiaomi Warranty",
@@ -825,9 +865,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 12,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/samsung-galaxy-watch-6-classic-47mm-bluetooth.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/samsung-galaxy-watch-6-classic-47mm-bluetooth.svg",
     specifications: { "Display": "1.5 Inch Super AMOLED Sapphire Glass", "Bezel": "Physical Rotating Stainless Steel", "Sensors": "BIA Body Composition, ECG, Heart Rate, SpO2, Skin Temp" },
     features: ["Physical Rotating Bezel Control", "Google Play Store Wear OS Apps", "IP68 & 5ATM Water Resistance"],
     warranty: "1 Year Samsung Warranty",
@@ -859,8 +899,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 11,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/xiaomi-smart-watch-s3-amoled-bluetooth-calling.svg"
+    ],
+    thumbnail: "/images/products/xiaomi-smart-watch-s3-amoled-bluetooth-calling.svg",
     specifications: { "Display": "1.43 Inch 60Hz AMOLED", "Battery Life": "Up to 15 Days", "Water Resistance": "5 ATM Swim Proof" },
     features: ["Swap-On Swappable Bezel Rings", "Hands-Free Bluetooth Calling & Speaker", "150+ Sports Tracking Modes"],
     warranty: "1 Year Official Warranty",
@@ -892,8 +934,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 8,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/apple-watch-se-2nd-gen-44mm-gps.svg"
+    ],
+    thumbnail: "/images/products/apple-watch-se-2nd-gen-44mm-gps.svg",
     specifications: { "Size": "44mm Aluminum Case", "Chip": "S8 SiP Dual Core", "Water Resistance": "50m Swimproof" },
     features: ["Crash Detection & Emergency SOS", "Fall Detection Sensors", "Activity Rings Motivation"],
     warranty: "1 Year International Apple Warranty",
@@ -928,9 +972,9 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     stock: 6,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"
+      "/images/products/motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/motorized-treadmill-heavy-duty-3-0-hp-with-auto-incline.svg",
     specifications: { "Motor": "3.0 HP Peak Quiet Duty Motor", "Max Speed": "16 km/h", "Max User Weight": "130 KG", "Incline": "1-15 Levels Motorized Auto Incline" },
     features: ["Multi-Point Knee Protection Shock Absorption", "Hydraulic Soft-Drop Easy Folding", "Built-in Massager & Sit-up Stand"],
     warranty: "2 Years Motor Warranty, 1 Year Frame",
@@ -962,8 +1006,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/elliptical-cross-trainer-machine-magnetic-resistance.svg"
+    ],
+    thumbnail: "/images/products/elliptical-cross-trainer-machine-magnetic-resistance.svg",
     specifications: { "Flywheel": "7 KG Heavy Inertia Flywheel", "Resistance": "8-Level Precision Magnetic", "Max Weight": "115 KG" },
     features: ["Zero-Impact Joint Friendly Cardio", "Pulse Rate Monitor on Grips", "Anti-Slip Textured Foot Pedals"],
     warranty: "1 Year Frame & Mechanism Warranty",
@@ -995,8 +1041,10 @@ export const PRODUCTS_PART_3: SeedProduct[] = [
     discountPercentage: 10,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/exercise-spin-bike-magnetic-heavy-flywheel.svg"
+    ],
+    thumbnail: "/images/products/exercise-spin-bike-magnetic-heavy-flywheel.svg",
     specifications: { "Flywheel": "13 KG Precision Balanced Steel", "Drive": "Silent Poly-V Belt Drive", "Max Weight": "125 KG" },
     features: ["Stepless Continuous Tension Knob", "4-Way Adjustable Comfort Saddle", "Front Transport Wheels"],
     warranty: "1 Year Warranty",

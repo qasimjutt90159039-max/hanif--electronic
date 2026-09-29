@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_elliptical-cross-trainer-machine-magnetic-resistance" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="ftSh_elliptical-cross-trainer-machine-magnetic-resistance" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_elliptical-cross-trainer-machine-magnetic-resistance)"/>
+
+  <g filter="url(#ftSh_elliptical-cross-trainer-machine-magnetic-resistance)">
+    
+      <!-- Elliptical Cross Trainer -->
+      <circle cx="380" cy="380" r="65" fill="#334155" stroke="#0284C7" stroke-width="6"/>
+      <line x1="180" y1="460" x2="450" y2="460" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+      <line x1="240" y1="430" x2="350" y2="220" stroke="#334155" stroke-width="10"/>
+      <line x1="350" y1="220" x2="320" y2="140" stroke="#0284C7" stroke-width="8" stroke-linecap="round"/>
+    
+  </g>
+
+  <g transform="translate(200, 520)">
+    <rect x="0" y="0" width="200" height="34" rx="17" fill="#0F172A"/>
+    <text x="100" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#DC2626" text-anchor="middle">
+      HEAVY DUTY FITNESS
+    </text>
+  </g>
+</svg>

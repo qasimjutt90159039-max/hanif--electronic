@@ -17,10 +17,9 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     stock: 12,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"
+      "/images/products/nasgas-kitchen-hood-khd-275.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/nasgas-kitchen-hood-khd-275.svg",
     specifications: { "Suction Power": "1000 m3/hr", "Motor": "100% Pure Copper Heavy Motor", "Controls": "Touch + Hand Gesture Sensor", "Filters": "Stainless Steel Baffle Filter" },
     features: ["Hand Wave Gesture Control", "Auto Clean Heat Wash Technology", "Bright Energy Saving LED Spots"],
     warranty: "1 Year Official Nasgas Warranty",
@@ -52,8 +51,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/nasgas-kitchen-hood-khd-265.svg"
+    ],
+    thumbnail: "/images/products/nasgas-kitchen-hood-khd-265.svg",
     specifications: { "Suction Power": "850 m3/hr", "Body": "Brushed Stainless Steel", "Noise Level": "Under 56 dB" },
     features: ["Dual High Speed Blower", "Dishwasher Safe Aluminum Filters", "Compact Under-Cabinet Mount"],
     warranty: "1 Year Official Warranty",
@@ -85,8 +86,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 9,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/nasgas-cooking-range-sg-324-5-burner.svg"
+    ],
+    thumbnail: "/images/products/nasgas-cooking-range-sg-324-5-burner.svg",
     specifications: { "Burners": "5 Heavy Brass Burners", "Oven Capacity": "Large 90L Capacity", "Grill": "Motorized Rotisserie Turnspit", "Ignition": "Automatic Piezo Electric" },
     features: ["Double Insulated Oven Chamber", "Cast Iron Heavy Pan Supports", "Interior Oven Lamp & Timer"],
     warranty: "1 Year Official Nasgas Warranty",
@@ -118,8 +121,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 12,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/nasgas-hob-dg-gn2-3-burner-glass-hob.svg"
+    ],
+    thumbnail: "/images/products/nasgas-hob-dg-gn2-3-burner-glass-hob.svg",
     specifications: { "Burners": "3 Brass Burners (1 Wok + 2 Medium)", "Glass": "8mm Thermal Shock Resistant", "Ignition": "Battery Pulse Ignition" },
     features: ["High Heat Output Triple Ring Wok Burner", "Heavy Duty Non-Slip Cast Iron Pan Stands", "Easy Wipe Stain-Resistant Glass"],
     warranty: "1 Year Official Warranty",
@@ -151,8 +156,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 13,
     stock: 22,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/midas-italy-infrax-3-hot-plate-mi-101.svg"
+    ],
+    thumbnail: "/images/products/midas-italy-infrax-3-hot-plate-mi-101.svg",
     specifications: { "Power": "2200W", "Heating Tech": "Infrared Ceramic Coil", "Cookware": "Works with ALL pots and pans" },
     features: ["Compatible with All Cookware Materials", "Digital LED Display & Touch Slider", "Overheat & Voltage Protection"],
     warranty: "1 Year Brand Warranty",
@@ -184,8 +191,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 13,
     stock: 18,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/raf-3500w-infrared-cooker-r-8019.svg"
+    ],
+    thumbnail: "/images/products/raf-3500w-infrared-cooker-r-8019.svg",
     specifications: { "Wattage": "3500W High Output", "Plate": "A-Grade Microcrystalline Glass", "Timer": "Up to 180 Minutes" },
     features: ["Rapid High-Temperature Cooking", "Multi-Stage Firepower Selection", "No Radiation Clean Heat"],
     warranty: "1 Year Replacement Warranty",
@@ -217,8 +226,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 20,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-hmw-20mhes-microwave-oven-20l.svg"
+    ],
+    thumbnail: "/images/products/haier-hmw-20mhes-microwave-oven-20l.svg",
     specifications: { "Capacity": "20 Liters", "Power": "700W Microwave", "Control": "Dual Mechanical Rotary Dials" },
     features: ["5 Power Level Settings", "Speed Defrost by Weight", "Turntable Glass Tray"],
     warranty: "1 Year Official Haier Warranty",
@@ -250,8 +261,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 12,
     stock: 15,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-air-fryer-5l-haf50db.svg"
+    ],
+    thumbnail: "/images/products/haier-air-fryer-5l-haf50db.svg",
     specifications: { "Capacity": "5.0 Liters", "Power": "1500W", "Display": "Digital Touch Screen" },
     features: ["Visual Clear-View Window", "360° Cyclone Air Heating", "Dishwasher Safe Non-Stick Coating"],
     warranty: "1 Year Official Warranty",
@@ -283,8 +296,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/canon-built-in-hob-3-burner-flame-failure.svg"
+    ],
+    thumbnail: "/images/products/canon-built-in-hob-3-burner-flame-failure.svg",
     specifications: { "Safety": "Flame Failure Device (FFD) on all burners", "Glass": "8mm Toughened Glass", "Ignition": "Continuous Electronic Ignition" },
     features: ["Gas Leak Protection Flame Failure Sensors", "Ergonomic Front Metal Control Knobs", "Cast Iron Heavy Duty Supports"],
     warranty: "1 Year Official Canon Warranty",
@@ -316,8 +331,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 7,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/nasgas-built-in-oven-gas-electric-bo-501.svg"
+    ],
+    thumbnail: "/images/products/nasgas-built-in-oven-gas-electric-bo-501.svg",
     specifications: { "Capacity": "65 Liters", "Heating Modes": "Gas Bake + Electric Grill + Convection Fan", "Door": "Triple Layer Glass Cool Touch" },
     features: ["Even Temperature Convection Fan", "Precision Digital Countdown Timer", "Easy Clean Enamel Interior"],
     warranty: "1 Year Official Nasgas Warranty",
@@ -349,8 +366,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 6,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/dawlance-built-in-oven-dbo-450-g.svg"
+    ],
+    thumbnail: "/images/products/dawlance-built-in-oven-dbo-450-g.svg",
     specifications: { "Capacity": "70 Liters", "Oven Functions": "8 Multi-Bake Settings", "Glass Door": "Removable Inner Glass for Cleaning" },
     features: ["Rotisserie Turnspit for Whole Chicken", "Dynamic Cooling Fan System", "Catalytic Self-Clean Wall Liners"],
     warranty: "1 Year Official Warranty",
@@ -382,8 +401,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/canon-kitchen-hood-c-90-curved-glass.svg"
+    ],
+    thumbnail: "/images/products/canon-kitchen-hood-c-90-curved-glass.svg",
     specifications: { "Suction Rate": "900 m3/hr", "Controls": "3 Speed Push Buttons", "Lighting": "Dual LED Lamps" },
     features: ["High Capacity Pure Copper Motor", "Washable Stainless Steel Filter", "Curved Toughened Glass Canopy"],
     warranty: "1 Year Canon Official Warranty",
@@ -415,8 +436,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 12,
     stock: 13,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/dawlance-microwave-oven-md-300-baking-grill-30l.svg"
+    ],
+    thumbnail: "/images/products/dawlance-microwave-oven-md-300-baking-grill-30l.svg",
     specifications: { "Capacity": "30 Liters", "Heating": "Convection + Grill + Microwave", "Programs": "Pakistani Menu Presets" },
     features: ["Built-in Chef Menu for Pakistani Cuisines", "Rotisserie & Grill Rack Included", "Child Safety Lock System"],
     warranty: "1 Year Official Warranty",
@@ -448,8 +471,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 16,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-microwave-oven-classic-23l-pmo-23.svg"
+    ],
+    thumbnail: "/images/products/pel-microwave-oven-classic-23l-pmo-23.svg",
     specifications: { "Capacity": "23 Liters", "Power": "800W", "Timer": "35 Minute Cooking Timer" },
     features: ["Antibacterial Easy-Wipe Cavity", "Defrost by Weight and Time", "Compact Family Sizing"],
     warranty: "1 Year PEL Warranty",
@@ -484,9 +509,9 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     stock: 14,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"
+      "/images/products/nasgas-ngd-201-dryer-heavy-duty-10kg.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/nasgas-ngd-201-dryer-heavy-duty-10kg.svg",
     specifications: { "Capacity": "10 KG", "Spin Speed": "1400 RPM", "Body": "Virgin Plastic Rust Proof", "Motor": "Pure Copper Winding" },
     features: ["Quick 5-Minute High Spin Drying", "Shock Balancing Dynamic Suspension", "Rust and Corrosion Proof Cabinet"],
     warranty: "2 Years Motor Warranty, 1 Year Parts",
@@ -518,8 +543,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 9,
     stock: 12,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/haier-automatic-washing-machine-hwm-90-1789-9kg.svg"
+    ],
+    thumbnail: "/images/products/haier-automatic-washing-machine-hwm-90-1789-9kg.svg",
     specifications: { "Capacity": "9.0 KG", "Type": "Top Load Fully Automatic", "Drum": "Stainless Steel Pillow Drum", "Water Pressure": "Works on 0.001 Mpa Near Zero Pressure" },
     features: ["Near-Zero Water Pressure Startup", "Soft Close Hydraulic Glass Lid", "Dual Magic Lint Filter"],
     warranty: "10 Years Motor Warranty, 1 Year Parts",
@@ -551,8 +578,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/dawlance-automatic-washing-machine-dwt-260-c-lvs-10kg.svg"
+    ],
+    thumbnail: "/images/products/dawlance-automatic-washing-machine-dwt-260-c-lvs-10kg.svg",
     specifications: { "Capacity": "10 KG", "Voltage": "LVS 150V Operation", "Pulsator": "Extreme Water Fall 3D Flow" },
     features: ["Low Voltage Startup Protection", "Child Safety Lock & Memory Recall", "E-Care Gentle Fabric Washing"],
     warranty: "10 Years Motor Warranty",
@@ -584,8 +613,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 18,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/super-asia-washing-machine-sa-240-super-twin-tub.svg"
+    ],
+    thumbnail: "/images/products/super-asia-washing-machine-sa-240-super-twin-tub.svg",
     specifications: { "Capacity": "9 KG Wash + 7 KG Spin", "Body": "High Impact Virgin Plastic", "Motor": "Super Asia Pure Copper Motor" },
     features: ["Double Waterfall Scrubbing Action", "Heavy Duty Lint Trapper", "Low Electricity Consumption"],
     warranty: "2 Years Motor Warranty, 1 Year Parts",
@@ -617,8 +648,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 9,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/samsung-washing-machine-wa80t5160-8kg-inverter.svg"
+    ],
+    thumbnail: "/images/products/samsung-washing-machine-wa80t5160-8kg-inverter.svg",
     specifications: { "Capacity": "8.0 KG", "Motor": "Digital Inverter 10 Year Warranty", "Technology": "Wobble Pulsator Care" },
     features: ["Wobble Care Prevents Fabric Tangling", "Magic Filter Traps Fluff & Debris", "Eco Tub Clean Maintenance Alert"],
     warranty: "10 Years Inverter Motor Warranty",
@@ -650,8 +683,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 9,
     stock: 11,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/kenwood-washing-machine-kwm-950-semi-auto.svg"
+    ],
+    thumbnail: "/images/products/kenwood-washing-machine-kwm-950-semi-auto.svg",
     specifications: { "Capacity": "9.5 KG", "Top Cover": "Tempered Toughened Glass", "Buzzer": "Cycle End Buzzer" },
     features: ["Heavy Duty Spin Extractor", "Thermal Motor Cutoff Overheat Guard", "Spacious Easy Loading Basin"],
     warranty: "2 Years Motor Warranty",
@@ -683,8 +718,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 9,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/pel-washing-machine-pawm-1100-auto-11kg.svg"
+    ],
+    thumbnail: "/images/products/pel-washing-machine-pawm-1100-auto-11kg.svg",
     specifications: { "Capacity": "11 KG Jumbo Drum", "Logic": "Fuzzy Logic Smart Sensors", "Drum": "Diamond Honeycomb Drum" },
     features: ["Blanket & Heavy Quilt Program", "Auto Power-Off Standby Zero Power", "High Spin Extraction 800 RPM"],
     warranty: "10 Years Motor Warranty",
@@ -716,8 +753,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 7,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/midea-washing-machine-front-load-8kg-inverter.svg"
+    ],
+    thumbnail: "/images/products/midea-washing-machine-front-load-8kg-inverter.svg",
     specifications: { "Capacity": "8 KG", "Type": "Front Load Inverter", "Speed": "1400 RPM", "Steam": "90°C High Temp Steam Care" },
     features: ["Steam Care 99.9% Allergy Eradication", "BLDC Quiet Inverter Drive", "Lunar Dial Program Wheel"],
     warranty: "10 Years Inverter Motor Warranty",
@@ -752,9 +791,9 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     stock: 20,
     stockStatus: "in_stock",
     images: [
-      "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"
+      "/images/products/nasgas-instant-geyser-super-flow-10l.svg"
     ],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    thumbnail: "/images/products/nasgas-instant-geyser-super-flow-10l.svg",
     specifications: { "Capacity": "10 Liters/min", "Heat Exchanger": "100% Oxygen-Free Heavy Copper", "Gas Type": "Natural Gas (SNG) / LPG compatible", "Startup": "Low Water Pressure 0.02 Mpa" },
     features: ["Zero-Pressure Ignition for High Floor Apartments", "Winter/Summer Dual Burner Switch", "20-Minute Timer Cutoff Safety"],
     warranty: "1 Year Official Nasgas Warranty",
@@ -786,8 +825,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 22,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/super-asia-instant-geyser-auto-ignition-8l.svg"
+    ],
+    thumbnail: "/images/products/super-asia-instant-geyser-auto-ignition-8l.svg",
     specifications: { "Capacity": "8 Liters/min", "Safety": "Flame Failure & Overheat Shutoff", "Body": "Powder Coated Rust Proof" },
     features: ["Automatic Battery Ignition", "Water Flow Adjustable Sensor", "Double Solenoid Gas Protection"],
     warranty: "1 Year Official Warranty",
@@ -819,8 +860,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 12,
     stock: 14,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/canon-instant-geyser-ultra-fast-12l.svg"
+    ],
+    thumbnail: "/images/products/canon-instant-geyser-ultra-fast-12l.svg",
     specifications: { "Capacity": "12 Liters/min High Flow", "Display": "Live Digital Water Temperature", "Ignition": "Dual Pulse Automatic" },
     features: ["Large 12L Capacity for Rain Showers", "Live Digital Water Temp Display", "Oxygen Depletion Protection Sensor"],
     warranty: "1 Year Canon Warranty",
@@ -852,8 +895,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 8,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/fischer-geyser-storage-gas-electric-35-gallons.svg"
+    ],
+    thumbnail: "/images/products/fischer-geyser-storage-gas-electric-35-gallons.svg",
     specifications: { "Capacity": "35 Gallons (132 Liters)", "Boiler Sheet": "10/12 Gauge Galvanized Iron", "Dual Heating": "Gas Burner + 2000W Electric Rod" },
     features: ["Thick High-Density Glass Wool Insulation", "Dual Fuel Operation (Gas & Electric)", "Italian Safety Thermostat Regulator"],
     warranty: "3 Years Tank Replacement Warranty",
@@ -885,8 +930,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 13,
     stock: 19,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/midas-geyser-instant-6l-compact.svg"
+    ],
+    thumbnail: "/images/products/midas-geyser-instant-6l-compact.svg",
     specifications: { "Capacity": "6 Liters/min", "Size": "Space-Saving Ultra Compact", "Coil": "Copper Heating Coil" },
     features: ["Economical Low Gas Consumption", "Compact Slim Fit Enclosure", "Automatic Dry-Burn Protection"],
     warranty: "1 Year Official Warranty",
@@ -918,8 +965,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 10,
     stock: 10,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/golden-fuji-geyser-dual-storage-30-gallon.svg"
+    ],
+    thumbnail: "/images/products/golden-fuji-geyser-dual-storage-30-gallon.svg",
     specifications: { "Capacity": "30 Gallons", "Boiler": "Heavy Zinc Coated GI Sheet", "Type": "Dual Fuel Gas & Electric" },
     features: ["Rust-Resistant Internal Galvanizing", "Over-Temperature Pressure Relief Valve", "Heavy Duty Stand Mounting"],
     warranty: "2 Years Tank Warranty",
@@ -951,8 +1000,10 @@ export const PRODUCTS_PART_2: SeedProduct[] = [
     discountPercentage: 11,
     stock: 17,
     stockStatus: "in_stock",
-    images: ["https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80"],
-    thumbnail: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80",
+    images: [
+      "/images/products/glory-geyser-instant-10l-gold-series.svg"
+    ],
+    thumbnail: "/images/products/glory-geyser-instant-10l-gold-series.svg",
     specifications: { "Capacity": "10 Liters/min", "Ignition": "Instant Battery Pulse", "Heat Shield": "Pure Copper Core" },
     features: ["Anti-Dry Combustion Sensor", "Stable Flame Wind-Proof Flue Design", "Summer/Winter Gas Economy Dial"],
     warranty: "1 Year Official Warranty",

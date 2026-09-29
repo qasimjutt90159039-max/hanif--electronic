@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_kenwood-inverter-refrigerator-glass-mirror-12-cft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="dr_kenwood-inverter-refrigerator-glass-mirror-12-cft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="70%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="fSh_kenwood-inverter-refrigerator-glass-mirror-12-cft" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_kenwood-inverter-refrigerator-glass-mirror-12-cft)"/>
+
+  <g filter="url(#fSh_kenwood-inverter-refrigerator-glass-mirror-12-cft)">
+    <rect x="200" y="505" width="30" height="15" rx="4" fill="#334155"/>
+    <rect x="370" y="505" width="30" height="15" rx="4" fill="#334155"/>
+
+    <rect x="180" y="90" width="240" height="420" rx="14" fill="#0F172A"/>
+
+    <rect x="185" y="95" width="230" height="150" rx="10" fill="url(#dr_kenwood-inverter-refrigerator-glass-mirror-12-cft)" stroke="#64748B" stroke-width="1.5"/>
+    <rect x="195" y="210" width="55" height="10" rx="3" fill="#94A3B8"/>
+
+    <text x="300" y="130" font-family="'Outfit', sans-serif" font-size="14" font-weight="900" fill="#E30613" text-anchor="middle" letter-spacing="2">
+      KENWOOD
+    </text>
+    <text x="300" y="145" font-family="sans-serif" font-size="9" font-weight="700" fill="#64748B" text-anchor="middle">
+      INVERTER FROST FREE
+    </text>
+
+    <rect x="185" y="255" width="230" height="250" rx="10" fill="url(#dr_kenwood-inverter-refrigerator-glass-mirror-12-cft)" stroke="#64748B" stroke-width="1.5"/>
+    <rect x="195" y="270" width="55" height="10" rx="3" fill="#94A3B8"/>
+
+    <rect x="255" y="300" width="90" height="100" rx="8" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <path d="M 285 330 Q 300 350 315 330" fill="none" stroke="#38BDF8" stroke-width="3"/>
+    <text x="300" y="380" font-family="sans-serif" font-size="9" font-weight="bold" fill="#38BDF8" text-anchor="middle">DISPENSER</text>
+  </g>
+
+  <g transform="translate(235, 530)">
+    <rect x="0" y="0" width="130" height="34" rx="17" fill="#0F172A"/>
+    <text x="65" y="22" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold" fill="#10B981" text-anchor="middle">
+      ECO INVERTER
+    </text>
+  </g>
+</svg>

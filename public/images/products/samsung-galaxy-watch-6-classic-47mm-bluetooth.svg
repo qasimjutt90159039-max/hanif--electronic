@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_samsung-galaxy-watch-6-classic-47mm-bluetooth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="wtSh_samsung-galaxy-watch-6-classic-47mm-bluetooth" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_samsung-galaxy-watch-6-classic-47mm-bluetooth)"/>
+
+  <g filter="url(#wtSh_samsung-galaxy-watch-6-classic-47mm-bluetooth)">
+    <!-- Top & Bottom Watch Straps -->
+    <rect x="260" y="70" width="80" height="150" rx="8" fill="#334155"/>
+    <rect x="260" y="380" width="80" height="150" rx="8" fill="#334155"/>
+
+    
+      <!-- Circular Classic Smart Watch -->
+      <circle cx="300" cy="285" r="95" fill="#18181B" stroke="#64748B" stroke-width="5"/>
+      <circle cx="300" cy="285" r="82" fill="#020617"/>
+      <!-- Rotating Bezel Notches -->
+      <circle cx="300" cy="285" r="88" fill="none" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 8"/>
+    
+
+    <!-- Display Face -->
+    <text x="300" y="275" font-family="'Outfit', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+      10:09
+    </text>
+    <text x="300" y="300" font-family="sans-serif" font-size="10" font-weight="bold" fill="#10B981" text-anchor="middle">
+      ♥ 78 BPM | 8,420 STEPS
+    </text>
+    <text x="300" y="325" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#29B6F6" text-anchor="middle">
+      SAMSUNG
+    </text>
+  </g>
+
+  <g transform="translate(220, 520)">
+    <rect x="0" y="0" width="160" height="34" rx="17" fill="#0F172A"/>
+    <text x="80" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#38BDF8" text-anchor="middle">
+      AMOLED DISPLAY
+    </text>
+  </g>
+</svg>

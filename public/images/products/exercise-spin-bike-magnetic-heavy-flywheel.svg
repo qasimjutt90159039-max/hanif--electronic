@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg_exercise-spin-bike-magnetic-heavy-flywheel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="ftSh_exercise-spin-bike-magnetic-heavy-flywheel" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg_exercise-spin-bike-magnetic-heavy-flywheel)"/>
+
+  <g filter="url(#ftSh_exercise-spin-bike-magnetic-heavy-flywheel)">
+    
+      <!-- Magnetic Exercise Spin Bike -->
+      <circle cx="390" cy="380" r="75" fill="#334155" stroke="#DC2626" stroke-width="8"/>
+      <circle cx="390" cy="380" r="25" fill="#DC2626"/>
+      <!-- Frame -->
+      <line x1="210" y1="460" x2="430" y2="460" stroke="#0F172A" stroke-width="14" stroke-linecap="round"/>
+      <line x1="390" y1="380" x2="270" y2="250" stroke="#DC2626" stroke-width="12" stroke-linecap="round"/>
+      <!-- Racing Saddle -->
+      <polygon points="230,240 290,240 270,260 240,260" fill="#0F172A"/>
+      <!-- Handlebars & Monitor -->
+      <line x1="390" y1="380" x2="360" y2="210" stroke="#334155" stroke-width="10"/>
+      <rect x="340" y="180" width="60" height="40" rx="6" fill="#0F172A"/>
+    
+  </g>
+
+  <g transform="translate(200, 520)">
+    <rect x="0" y="0" width="200" height="34" rx="17" fill="#0F172A"/>
+    <text x="100" y="22" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold" fill="#DC2626" text-anchor="middle">
+      HEAVY DUTY FITNESS
+    </text>
+  </g>
+</svg>
